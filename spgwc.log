@@ -1,0 +1,672 @@
+[2019-06-15T09:24:48.125949] [spgwc] [sgwc_app ] [start] Options parsed
+[2019-06-15T09:24:48.126792] [spgwc] [sgwc_app ] [info ] SettingNotFoundException : S-GW.INTERFACES.S11_CP.SCHED_PARAMS, using defaults
+[2019-06-15T09:24:48.126883] [spgwc] [sgwc_app ] [info ] SettingNotFoundException : S-GW.INTERFACES.S5_S8_CP.SCHED_PARAMS, using defaults
+[2019-06-15T09:24:48.126960] [spgwc] [sgwc_app ] [info ] ==== EURECOM SPGW-C vBranch: master Abrev. Hash: 4fee0d1 Date: Mon May 27 12:59:45 2019 +0200 ====
+[2019-06-15T09:24:48.126974] [spgwc] [sgwc_app ] [info ] Configuration SGW-C:
+[2019-06-15T09:24:48.126983] [spgwc] [sgwc_app ] [info ] - S5_S8-C Networking:
+[2019-06-15T09:24:48.126992] [spgwc] [sgwc_app ] [info ]     iface ............: ens193:s5c
+[2019-06-15T09:24:48.127009] [spgwc] [sgwc_app ] [info ]     ipv4.addr ........: 172.58.58.102
+[2019-06-15T09:24:48.127020] [spgwc] [sgwc_app ] [info ]     ipv4.mask ........: 255.255.0.0
+[2019-06-15T09:24:48.127029] [spgwc] [sgwc_app ] [info ]     port .............: 2123
+[2019-06-15T09:24:48.127037] [spgwc] [sgwc_app ] [info ] - S5_S8-C Threading:
+[2019-06-15T09:24:48.127045] [spgwc] [sgwc_app ] [info ]     CPU id............: 0
+[2019-06-15T09:24:48.127054] [spgwc] [sgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-15T09:24:48.127070] [spgwc] [sgwc_app ] [info ]     Scheduling prio  .: 95
+[2019-06-15T09:24:48.127085] [spgwc] [sgwc_app ] [info ] - S11-C Networking:
+[2019-06-15T09:24:48.127100] [spgwc] [sgwc_app ] [info ]     iface ............: ens193:s11
+[2019-06-15T09:24:48.127115] [spgwc] [sgwc_app ] [info ]     ipv4.addr ........: 172.16.1.104
+[2019-06-15T09:24:48.127124] [spgwc] [sgwc_app ] [info ]     ipv4.mask ........: 255.255.0.0
+[2019-06-15T09:24:48.127132] [spgwc] [sgwc_app ] [info ]     port .............: 2123
+[2019-06-15T09:24:48.127140] [spgwc] [sgwc_app ] [info ] - S11-C Threading:
+[2019-06-15T09:24:48.127148] [spgwc] [sgwc_app ] [info ]     CPU id............: 0
+[2019-06-15T09:24:48.127156] [spgwc] [sgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-15T09:24:48.127164] [spgwc] [sgwc_app ] [info ]     Scheduling prio  .: 95
+[2019-06-15T09:24:48.127172] [spgwc] [sgwc_app ] [info ] - ITTI Timer Task Threading:
+[2019-06-15T09:24:48.127180] [spgwc] [sgwc_app ] [info ]     CPU id............: 0
+[2019-06-15T09:24:48.127188] [spgwc] [sgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-15T09:24:48.127196] [spgwc] [sgwc_app ] [info ]     Scheduling prio  .: 85
+[2019-06-15T09:24:48.127203] [spgwc] [sgwc_app ] [info ] - ITTI S11 Task Threading:
+[2019-06-15T09:24:48.127211] [spgwc] [sgwc_app ] [info ]     CPU id............: 0
+[2019-06-15T09:24:48.127225] [spgwc] [sgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-15T09:24:48.127234] [spgwc] [sgwc_app ] [info ]     Scheduling prio  .: 84
+[2019-06-15T09:24:48.127242] [spgwc] [sgwc_app ] [info ] - ITTI S5S8 Task Threading:
+[2019-06-15T09:24:48.127250] [spgwc] [sgwc_app ] [info ]     CPU id............: 0
+[2019-06-15T09:24:48.127258] [spgwc] [sgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-15T09:24:48.127266] [spgwc] [sgwc_app ] [info ]     Scheduling prio  .: 84
+[2019-06-15T09:24:48.127274] [spgwc] [sgwc_app ] [info ] - ITTI SGW_APP task Threading:
+[2019-06-15T09:24:48.127282] [spgwc] [sgwc_app ] [info ]     CPU id............: 0
+[2019-06-15T09:24:48.127290] [spgwc] [sgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-15T09:24:48.127299] [spgwc] [sgwc_app ] [info ]     Scheduling prio  .: 84
+[2019-06-15T09:24:48.127307] [spgwc] [sgwc_app ] [info ] - ITTI ASYNC_CMD task Threading:
+[2019-06-15T09:24:48.127315] [spgwc] [sgwc_app ] [info ]     CPU id............: 0
+[2019-06-15T09:24:48.127323] [spgwc] [sgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-15T09:24:48.127331] [spgwc] [sgwc_app ] [info ]     Scheduling prio  .: 84
+[2019-06-15T09:24:48.127703] [spgwc] [pgwc_app ] [info ] SettingNotFoundException : P-GW.ITTI_TASKS, using defaults
+[2019-06-15T09:24:48.127795] [spgwc] [pgwc_app ] [info ] SettingNotFoundException : P-GW.INTERFACES.S5_S8_CP.SCHED_PARAMS, using defaults
+[2019-06-15T09:24:48.127874] [spgwc] [pgwc_app ] [info ] SettingNotFoundException : P-GW.INTERFACES.SX.SCHED_PARAMS, using defaults
+[2019-06-15T09:24:48.128165] [spgwc] [pgwc_app ] [info ] Finalize config...
+[2019-06-15T09:24:48.128187] [spgwc] [pgwc_app ] [info ] Finalized config
+[2019-06-15T09:24:48.128220] [spgwc] [pgwc_app ] [info ] ==== EURECOM SPGW-C vBranch: master Abrev. Hash: 4fee0d1 Date: Mon May 27 12:59:45 2019 +0200 ====
+[2019-06-15T09:24:48.128229] [spgwc] [pgwc_app ] [info ] Configuration PGW-C:
+[2019-06-15T09:24:48.128237] [spgwc] [pgwc_app ] [info ] - Instance ..............: 1
+
+[2019-06-15T09:24:48.128245] [spgwc] [pgwc_app ] [info ] - PID dir ...............: /var/run
+
+[2019-06-15T09:24:48.128253] [spgwc] [pgwc_app ] [info ] - S5S8-C Networking:
+[2019-06-15T09:24:48.128260] [spgwc] [pgwc_app ] [info ]     iface ............: ens193:p5c
+[2019-06-15T09:24:48.128269] [spgwc] [pgwc_app ] [info ]     ipv4.addr ........: 172.58.58.101
+[2019-06-15T09:24:48.128277] [spgwc] [pgwc_app ] [info ]     ipv4.mask ........: 255.255.0.0
+[2019-06-15T09:24:48.128285] [spgwc] [pgwc_app ] [info ]     port .............: 2123
+[2019-06-15T09:24:48.128292] [spgwc] [pgwc_app ] [info ]     MTU ..............: 1500
+[2019-06-15T09:24:48.128299] [spgwc] [pgwc_app ] [info ] - SX Networking:
+[2019-06-15T09:24:48.128307] [spgwc] [pgwc_app ] [info ]     iface ................: ens193:sxc
+[2019-06-15T09:24:48.128315] [spgwc] [pgwc_app ] [info ]     ip ...................: 172.55.55.101
+[2019-06-15T09:24:48.128323] [spgwc] [pgwc_app ] [info ]     port .................: 8805
+[2019-06-15T09:24:48.128334] [spgwc] [pgwc_app ] [info ] - S5S8 Threading:
+[2019-06-15T09:24:48.128343] [spgwc] [pgwc_app ] [info ]     CPU id............: 0
+[2019-06-15T09:24:48.128351] [spgwc] [pgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-15T09:24:48.128358] [spgwc] [pgwc_app ] [info ]     Scheduling prio  .: 90
+[2019-06-15T09:24:48.128365] [spgwc] [pgwc_app ] [info ] - SX Threading:
+[2019-06-15T09:24:48.128372] [spgwc] [pgwc_app ] [info ]     CPU id............: 0
+[2019-06-15T09:24:48.128394] [spgwc] [pgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-15T09:24:48.128407] [spgwc] [pgwc_app ] [info ]     Scheduling prio  .: 90
+[2019-06-15T09:24:48.128417] [spgwc] [pgwc_app ] [info ] - ITTI Timer Task Threading:
+[2019-06-15T09:24:48.128425] [spgwc] [pgwc_app ] [info ]     CPU id............: 0
+[2019-06-15T09:24:48.128432] [spgwc] [pgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-15T09:24:48.128439] [spgwc] [pgwc_app ] [info ]     Scheduling prio  .: 85
+[2019-06-15T09:24:48.128446] [spgwc] [pgwc_app ] [info ] - ITTI S5S8 Task Threading:
+[2019-06-15T09:24:48.128454] [spgwc] [pgwc_app ] [info ]     CPU id............: 0
+[2019-06-15T09:24:48.128461] [spgwc] [pgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-15T09:24:48.128468] [spgwc] [pgwc_app ] [info ]     Scheduling prio  .: 84
+[2019-06-15T09:24:48.128476] [spgwc] [pgwc_app ] [info ] - ITTI Sx Task Threading:
+[2019-06-15T09:24:48.128483] [spgwc] [pgwc_app ] [info ]     CPU id............: 0
+[2019-06-15T09:24:48.128490] [spgwc] [pgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-15T09:24:48.128497] [spgwc] [pgwc_app ] [info ]     Scheduling prio  .: 84
+[2019-06-15T09:24:48.128505] [spgwc] [pgwc_app ] [info ] - ITTI PGW_APP task Threading:
+[2019-06-15T09:24:48.128512] [spgwc] [pgwc_app ] [info ]     CPU id............: 0
+[2019-06-15T09:24:48.128519] [spgwc] [pgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-15T09:24:48.128526] [spgwc] [pgwc_app ] [info ]     Scheduling prio  .: 84
+[2019-06-15T09:24:48.128534] [spgwc] [pgwc_app ] [info ] - ITTI ASYNC_CMD task Threading:
+[2019-06-15T09:24:48.128541] [spgwc] [pgwc_app ] [info ]     CPU id............: 0
+[2019-06-15T09:24:48.128548] [spgwc] [pgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-15T09:24:48.128556] [spgwc] [pgwc_app ] [info ]     Scheduling prio  .: 84
+[2019-06-15T09:24:48.128566] [spgwc] [pgwc_app ] [info ] - IP_ADDRESS_POOL:
+[2019-06-15T09:24:48.128579] [spgwc] [pgwc_app ] [info ]     IPv4 pool 0 ..........: 12.2.1.2 - 12.2.1.128
+[2019-06-15T09:24:48.128589] [spgwc] [pgwc_app ] [info ]     IPv6 pool 0 ..........: 2001:1:2:: / 64
+[2019-06-15T09:24:48.128614] [spgwc] [pgwc_app ] [info ]     IPv6 pool 1 ..........: 3001:1:2:: / 64
+[2019-06-15T09:24:48.128624] [spgwc] [pgwc_app ] [info ]     IPv6 pool 2 ..........: 4001:1:2:: / 64
+[2019-06-15T09:24:48.128631] [spgwc] [pgwc_app ] [info ] - DEFAULT DNS:
+[2019-06-15T09:24:48.128639] [spgwc] [pgwc_app ] [info ]     Primary DNS ..........: 10.118.81.1
+[2019-06-15T09:24:48.128647] [spgwc] [pgwc_app ] [info ]     Secondary DNS ........: 10.118.81.2
+[2019-06-15T09:24:48.128658] [spgwc] [pgwc_app ] [info ]     Primary DNS v6........: 2001:4860:4860::8888
+[2019-06-15T09:24:48.128674] [spgwc] [pgwc_app ] [info ]     Secondary DNS v6 .....: 2001:4860:4860::8844
+[2019-06-15T09:24:48.128687] [spgwc] [pgwc_app ] [info ] - APN_LIST:
+[2019-06-15T09:24:48.128701] [spgwc] [pgwc_app ] [info ]     APN 0:
+[2019-06-15T09:24:48.128714] [spgwc] [pgwc_app ] [info ]         APN_NI:  default.mnc001.mcc001.gprs
+[2019-06-15T09:24:48.128722] [spgwc] [pgwc_app ] [info ]         PDN_TYPE:  IPV4
+[2019-06-15T09:24:48.128732] [spgwc] [pgwc_app ] [info ]         IPV4_POOL:  0 ( 12.2.1.2 - 12.2.1.128)
+[2019-06-15T09:24:48.128740] [spgwc] [pgwc_app ] [info ] - PCEF support (in development)
+[2019-06-15T09:24:48.128748] [spgwc] [pgwc_app ] [info ]     APN AMBR UL ..........: 500000  (Kilo bits/s)
+[2019-06-15T09:24:48.128756] [spgwc] [pgwc_app ] [info ]     APN AMBR DL ..........: 500000  (Kilo bits/s)
+[2019-06-15T09:24:48.128763] [spgwc] [pgwc_app ] [info ] - Helpers:
+[2019-06-15T09:24:48.128770] [spgwc] [pgwc_app ] [info ]     Push PCO (DNS+MTU) ........: false
+[2019-06-15T09:24:48.128822] [spgwc] [itti     ] [start] Starting...
+[2019-06-15T09:24:48.129056] [spgwc] [itti     ] [start] Started
+[2019-06-15T09:24:48.129075] [spgwc] [async_c  ] [start] Starting...
+[2019-06-15T09:24:48.129065] [spgwc] [itti     ] [info ] Starting timer_manager_task
+[2019-06-15T09:24:48.130317] [spgwc] [async_c  ] [start] Started
+[2019-06-15T09:24:48.130397] [spgwc] [pgwc_app ] [start] Starting...
+[2019-06-15T09:24:48.130417] [spgwc] [pgwc_app ] [info ] Apply config...
+[2019-06-15T09:24:48.130427] [spgwc] [pgwc_app ] [info ]  ***** apply_config: cfg.num_apn: 1
+[2019-06-15T09:24:48.130442] [spgwc] [pgwc_app ] [info ]  ***** apply_config: pool_id_iv4: 0, pool_id_iv6: -1, apn_label: defaultmnc001mcc001gprs
+[2019-06-15T09:24:48.130455] [spgwc] [pgwc_app ] [info ]  ***** add_pool: pool_id 0
+[2019-06-15T09:24:48.130504] [spgwc] [pgwc_app ] [info ]  ***** add_pool: ipv4_pools
+[2019-06-15T09:24:48.130578] [spgwc] [pgwc_app ] [info ]  ***** add_pool: apns apn_label default.mnc001.mcc001.gprs
+[2019-06-15T09:24:48.130601] [spgwc] [pgwc_app ] [info ] Applied config
+[2019-06-15T09:24:48.131843] [spgwc] [udp      ] [debug] Creating new listen socket on address 172.58.58.101 and port 2123
+
+[2019-06-15T09:24:48.131875] [spgwc] [udp      ] [debug] udp_server::udp_server(172.58.58.101:2123)
+[2019-06-15T09:24:48.131907] [spgwc] [udp      ] [debug] Creating new listen socket on address 172.58.58.101 and port 0
+
+[2019-06-15T09:24:48.131922] [spgwc] [udp      ] [debug] udp_server::udp_server(172.58.58.101:0)
+[2019-06-15T09:24:48.131935] [spgwc] [gtpv2_c  ] [info ] gtpv2c_stack created listening to 172.58.58.101:2123 initial seq num 131933241
+[2019-06-15T09:24:48.131950] [spgwc] [udp      ] [trace] udp_server::start_receive
+[2019-06-15T09:24:48.132064] [spgwc] [udp      ] [trace] udp_server::start_receive
+[2019-06-15T09:24:48.132181] [spgwc] [pgwc_s5  ] [start] Starting...
+[2019-06-15T09:24:48.133398] [spgwc] [pgwc_s5  ] [start] Started
+[2019-06-15T09:24:48.133482] [spgwc] [udp      ] [debug] Creating new listen socket on address 172.55.55.101 and port 8805
+
+[2019-06-15T09:24:48.133501] [spgwc] [udp      ] [debug] udp_server::udp_server(172.55.55.101:8805)
+[2019-06-15T09:24:48.133522] [spgwc] [udp      ] [debug] Creating new listen socket on address 172.55.55.101 and port 0
+
+[2019-06-15T09:24:48.133535] [spgwc] [udp      ] [debug] udp_server::udp_server(172.55.55.101:0)
+[2019-06-15T09:24:48.133547] [spgwc] [pfcp     ] [info ] pfcp_l4_stack created listening to 172.55.55.101:8805
+[2019-06-15T09:24:48.133573] [spgwc] [udp      ] [trace] udp_server::start_receive
+[2019-06-15T09:24:48.133753] [spgwc] [udp      ] [trace] udp_server::start_receive
+[2019-06-15T09:24:48.133931] [spgwc] [pgwc_sx  ] [start] Starting...
+[2019-06-15T09:24:48.135187] [spgwc] [pgwc_sx  ] [start] Started
+[2019-06-15T09:24:48.135205] [spgwc] [pgwc_app ] [start] Started
+[2019-06-15T09:24:48.135292] [spgwc] [sgwc_app ] [start] Starting...
+[2019-06-15T09:24:48.135350] [spgwc] [udp      ] [debug] Creating new listen socket on address 172.58.58.102 and port 2123
+
+[2019-06-15T09:24:48.135367] [spgwc] [udp      ] [debug] udp_server::udp_server(172.58.58.102:2123)
+[2019-06-15T09:24:48.135393] [spgwc] [udp      ] [debug] Creating new listen socket on address 172.58.58.102 and port 0
+
+[2019-06-15T09:24:48.135407] [spgwc] [udp      ] [debug] udp_server::udp_server(172.58.58.102:0)
+[2019-06-15T09:24:48.135423] [spgwc] [gtpv2_c  ] [info ] gtpv2c_stack created listening to 172.58.58.102:2123 initial seq num 135422044
+[2019-06-15T09:24:48.135435] [spgwc] [udp      ] [trace] udp_server::start_receive
+[2019-06-15T09:24:48.135570] [spgwc] [udp      ] [trace] udp_server::start_receive
+[2019-06-15T09:24:48.135693] [spgwc] [sgwc_s5  ] [start] Starting...
+[2019-06-15T09:24:48.136910] [spgwc] [sgwc_s5  ] [start] Started
+[2019-06-15T09:24:48.136963] [spgwc] [udp      ] [debug] Creating new listen socket on address 172.16.1.104 and port 2123
+
+[2019-06-15T09:24:48.136980] [spgwc] [udp      ] [debug] udp_server::udp_server(172.16.1.104:2123)
+[2019-06-15T09:24:48.136997] [spgwc] [udp      ] [debug] Creating new listen socket on address 172.16.1.104 and port 0
+
+[2019-06-15T09:24:48.137009] [spgwc] [udp      ] [debug] udp_server::udp_server(172.16.1.104:0)
+[2019-06-15T09:24:48.137020] [spgwc] [gtpv2_c  ] [info ] gtpv2c_stack created listening to 172.16.1.104:2123 initial seq num 137019212
+[2019-06-15T09:24:48.137031] [spgwc] [udp      ] [trace] udp_server::start_receive
+[2019-06-15T09:24:48.137156] [spgwc] [udp      ] [trace] udp_server::start_receive
+[2019-06-15T09:24:48.137270] [spgwc] [sgwc_s11 ] [start] Starting...
+[2019-06-15T09:24:48.138469] [spgwc] [sgwc_s11 ] [start] Started
+[2019-06-15T09:24:51.996078] [spgwc] [pgwc_sx  ] [info ] handle_receive(31 bytes)
+[2019-06-15T09:24:51.996202] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 5 length 27
+[2019-06-15T09:24:51.996693] [spgwc] [pfcp     ] [trace] Sending PFCP_ASSOCIATION_SETUP_RESPONSE, seq 4357456
+[2019-06-15T09:24:56.997566] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:24:56.997639] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-15T09:24:56.997771] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 4357457
+[2019-06-15T09:25:01.996773] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 2
+[2019-06-15T09:25:01.996843] [spgwc] [pgwc_sx  ] [info ] PFCP HEARTBEAT PROCEDURE hash 1714894764 starting
+[2019-06-15T09:25:01.997037] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 16131615
+[2019-06-15T09:25:01.997919] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:01.998010] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 2 length 12
+[2019-06-15T09:25:01.998418] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:01.998462] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-15T09:25:01.998562] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 4357458
+[2019-06-15T09:25:06.997326] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 6
+[2019-06-15T09:25:06.999080] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:06.999145] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-15T09:25:06.999234] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 4357459
+[2019-06-15T09:25:11.998227] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 7
+[2019-06-15T09:25:11.998296] [spgwc] [pgwc_sx  ] [info ] PFCP HEARTBEAT PROCEDURE hash 1714894764 starting
+[2019-06-15T09:25:11.998423] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 16131616
+[2019-06-15T09:25:11.998855] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:11.998902] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 2 length 12
+[2019-06-15T09:25:11.999574] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:11.999609] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-15T09:25:11.999675] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 4357460
+[2019-06-15T09:25:16.998636] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 12
+[2019-06-15T09:25:17.000084] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:17.000139] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-15T09:25:17.000258] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 4357461
+[2019-06-15T09:25:21.999120] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 13
+[2019-06-15T09:25:21.999197] [spgwc] [pgwc_sx  ] [info ] PFCP HEARTBEAT PROCEDURE hash 1714894764 starting
+[2019-06-15T09:25:21.999303] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 16131617
+[2019-06-15T09:25:22.000471] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:22.000527] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 2 length 12
+[2019-06-15T09:25:22.000877] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:22.000921] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-15T09:25:22.001003] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 4357462
+[2019-06-15T09:25:26.999493] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 18
+[2019-06-15T09:25:27.001496] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:27.001563] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-15T09:25:27.001650] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 4357463
+[2019-06-15T09:25:28.914357] [spgwc] [gtpv2_c  ] [trace] Started proc cleanup timer 22, proc 0xc t-out 5000 ms
+[2019-06-15T09:25:28.914446] [spgwc] [gtpv2_c  ] [info ] Received Initial GTPV2-C msg type 32, seq 14816, proc 0xc
+[2019-06-15T09:25:28.914560] [spgwc] [sgwc_app ] [debug] Received S11 CREATE_SESSION_REQUEST sender teid 0x0  gtpc_tx_id 0xc 
+[2019-06-15T09:25:28.914825] [spgwc] [sgwc_app ] [trace]  ***** apn_in_use:  default.mnc001.mcc001.gprs
+[2019-06-15T09:25:28.914846] [spgwc] [sgwc_app ] [trace]  ***** Changing apn_in_use from default.mnc001.mcc001.gprs
+[2019-06-15T09:25:28.914857] [spgwc] [sgwc_app ] [trace]  ***** Changing apn_in_use to default.mnc001.mcc001.gprs
+[2019-06-15T09:25:28.914889] [spgwc] [sgwc_app ] [trace] insert_pdn_connection(default.mnc001.mcc001.gprs,1) succeed key(default.mnc001.mcc001.gprs,1)
+[2019-06-15T09:25:28.914989] [spgwc] [sgwc_app ] [trace] sgw_pdn_connection::add_eps_bearer(5) success
+[2019-06-15T09:25:28.915321] [spgwc] [sgwc_app ] [debug] sgw_eps_bearer_context: SGW EPS BEARER CONTEXT:
+	IMSI:			001011234561001
+	IMSI UNAUTHENTICATED:	0
+	MME FTEID S11 CP:	Interface type=S11_MME_GTP_C, TEID=1, IPv4=172.16.1.102
+	SGW FTEID S11 CP:	Interface type=S11_S4_SGW_GTP_C, TEID=1, IPv4=172.16.1.104
+	LAST KNOWN CELL ID:	mcc=0, MNC=0, ECI=0, EUCI=0
+PDN CONNECTION:
+	APN IN USE:		default.mnc001.mcc001.gprs
+	PDN TYPE:		IPV4
+	PGW FTEID S5S8 CP:	null_fteid
+	SGW FTEID S5S8 CP:	Interface type=S5_S8_SGW_GTP_C, TEID=1, IPv4=172.58.58.102
+	DEFAULT BEARER:		5
+EPS BEARER:
+	EBI:				5
+	TFT:				TODO tft
+	PGW FTEID S5S8 UP:		null_fteid
+	SGW FTEID S5S8 UP:		null_fteid
+	SGW FTEID S1S12S4 UP:		null_fteid
+	SGW FTEID S11 UP:		null_fteid
+	MME FTEID S11 UP:		null_fteid
+	eNB FTEID S1 UP:		null_fteid
+	Bearer QOS:			MBR UL=0, MBR DL=0, GBR UL=0, GBR DL=0, PCI=1, PL=15, PVI=1, QCI=9
+!
+[2019-06-15T09:25:28.915712] [spgwc] [gtpv2_c  ] [trace] Sending CREATE_SESSION_REQUEST, seq 1204317, teid 0x0, proc 0xc
+[2019-06-15T09:25:28.915783] [spgwc] [gtpv2_c  ] [trace] Started Msg retry timer 23, proc 0xc, seq 1204317
+[2019-06-15T09:25:28.915847] [spgwc] [gtpv2_c  ] [trace] Started proc cleanup timer 24, proc 0xc t-out 5000 ms
+[2019-06-15T09:25:28.916309] [spgwc] [gtpv2_c  ] [trace] Started proc cleanup timer 25, proc 0xd t-out 5000 ms
+[2019-06-15T09:25:28.916364] [spgwc] [gtpv2_c  ] [info ] Received Initial GTPV2-C msg type 32, seq 1204317, proc 0xd
+[2019-06-15T09:25:28.916457] [spgwc] [pgwc_app ] [debug] Received S5S8 CREATE_SESSION_REQUEST teid 0x0  gtpc_tx_id 0xd 
+[2019-06-15T09:25:28.916487] [spgwc] [pgwc_app ] [trace]  ***** access_point_name:  default.mnc001.mcc001.gprs
+[2019-06-15T09:25:28.916500] [spgwc] [pgwc_app ] [trace]  ***** Changing access_point_name from default.mnc001.mcc001.gprs
+[2019-06-15T09:25:28.916514] [spgwc] [pgwc_app ] [trace]  ***** Changing access_point_name to default.mnc001.mcc001.gprs
+[2019-06-15T09:25:28.916526] [spgwc] [pgwc_app ] [trace]  ***** is_dotted_apn_handled() num_apn 1
+[2019-06-15T09:25:28.916537] [spgwc] [pgwc_app ] [trace]  ***** is_dotted_apn_handled() i: 0, apn: default.mnc001.mcc001.gprs, pgw_cfg.apn[i].apn_label: defaultmnc001mcc001gprs, pgw_cfg.apn[i].apn default.mnc001.mcc001.gprs
+[2019-06-15T09:25:28.916552] [spgwc] [pgwc_app ] [trace]  ***** is_dotted_apn_handled() pdn_type: 1, pgw_cfg.apn[i].pdn_type.pdn_type: 1
+[2019-06-15T09:25:28.916561] [spgwc] [pgwc_app ] [trace]  ***** is_dotted_apn_handled() return true
+[2019-06-15T09:25:28.916720] [spgwc] [pgwc_app ] [debug] PCO: Protocol identifier IPCP length 16
+
+[2019-06-15T09:25:28.916740] [spgwc] [pgwc_app ] [trace] PCO: Protocol identifier IPCP (0x8021) code 0x1 identifier 0x0 length 16
+[2019-06-15T09:25:28.916751] [spgwc] [pgwc_app ] [trace] PCO: Protocol identifier IPCP ipcp_option 129 ipcp_option_length 6 ipcp_remaining_length 6 pco_in_index 4
+[2019-06-15T09:25:28.916759] [spgwc] [pgwc_app ] [trace] PCO: Protocol identifier IPCP option PRIMARY_DNS_SERVER_IP_ADDRESS length 6
+[2019-06-15T09:25:28.916767] [spgwc] [pgwc_app ] [debug] PCO: Protocol identifier IPCP option SECONDARY_DNS_SERVER_IP_ADDRESS ipcp_dns_prim_ipv4_addr 0x0
+[2019-06-15T09:25:28.916776] [spgwc] [pgwc_app ] [debug] PCO: Protocol identifier IPCP option SECONDARY_DNS_SERVER_IP_ADDRESS ipcp_out_dns_prim_ipv4_addr 0x151760a
+[2019-06-15T09:25:28.916786] [spgwc] [pgwc_app ] [trace] PCO: Protocol identifier IPCP ipcp_option 131 ipcp_option_length 6 ipcp_remaining_length 0 pco_in_index 10
+[2019-06-15T09:25:28.916794] [spgwc] [pgwc_app ] [debug] PCO: Protocol identifier IPCP option SECONDARY_DNS_SERVER_IP_ADDRESS length 6
+[2019-06-15T09:25:28.916802] [spgwc] [pgwc_app ] [debug] PCO: Protocol identifier IPCP option SECONDARY_DNS_SERVER_IP_ADDRESS ipcp_dns_sec_ipv4_addr 0x0
+[2019-06-15T09:25:28.916810] [spgwc] [pgwc_app ] [debug] PCO: Protocol identifier IPCP option SECONDARY_DNS_SERVER_IP_ADDRESS ipcp_out_dns_sec_ipv4_addr 0x251760a
+[2019-06-15T09:25:28.916837] [spgwc] [pgwc_app ] [debug] PCO: Protocol identifier IPCP option DNS Server Request
+[2019-06-15T09:25:28.916848] [spgwc] [pgwc_app ] [debug] PCO: Allocation via NAS signaling requested
+[2019-06-15T09:25:28.917055] [spgwc] [pgwc_app ] [trace] pgw_pdn_connection::add_eps_bearer(5) success
+[2019-06-15T09:25:28.917089] [spgwc] [pgwc_app ] [info ] Sending ITTI message 39itti_sxab_session_establishment_request to task TASK_PGWC_SX
+[2019-06-15T09:25:28.917473] [spgwc] [pfcp     ] [trace] Sending PFCP_SESSION_ESTABLISHMENT_REQUEST, seq 16131618 seid 0x0 
+[2019-06-15T09:25:28.919112] [spgwc] [pgwc_sx  ] [info ] handle_receive(70 bytes)
+[2019-06-15T09:25:28.919226] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 51 length 66
+[2019-06-15T09:25:28.919354] [spgwc] [pgwc_app ] [debug] Received SXAB SESSION ESTABLISHMENT RESPONSE sender teid 0x1  pfcp_tx_id E
+
+[2019-06-15T09:25:28.919457] [spgwc] [pgwc_app ] [trace] pgw_pdn_connection::add_eps_bearer(5) success
+[2019-06-15T09:25:28.919520] [spgwc] [pgwc_app ] [info ] Sending ITTI message CREATE_SESSION_RESPONSE to task TASK_PGWC_S5S8
+[2019-06-15T09:25:28.919823] [spgwc] [gtpv2_c  ] [trace] Sending CREATE_SESSION_RESPONSE, seq 1204317, teid 0x1, proc 0xd
+[2019-06-15T09:25:28.919890] [spgwc] [gtpv2_c  ] [trace] Stopped proc cleanup timer 25, proc 0xd
+[2019-06-15T09:25:28.920180] [spgwc] [gtpv2_c  ] [info ] check_triggered_message_type GTPV2-C msg type 32/33
+[2019-06-15T09:25:28.920234] [spgwc] [gtpv2_c  ] [trace] Stopped Msg retry timer 23, proc 0xc, seq 1204317
+[2019-06-15T09:25:28.920250] [spgwc] [gtpv2_c  ] [info ] Received Triggered GTPV2-C msg type 33, seq 1204317, proc 0xc
+[2019-06-15T09:25:28.920341] [spgwc] [sgwc_app ] [debug] Received S5S8 CREATE_SESSION_RESPONSE sender teid 0x1  gtpc_tx_id 0xc 
+[2019-06-15T09:25:28.920649] [spgwc] [sgwc_app ] [debug] sgw_eps_bearer_context: SGW EPS BEARER CONTEXT:
+	IMSI:			001011234561001
+	IMSI UNAUTHENTICATED:	0
+	MME FTEID S11 CP:	Interface type=S11_MME_GTP_C, TEID=1, IPv4=172.16.1.102
+	SGW FTEID S11 CP:	Interface type=S11_S4_SGW_GTP_C, TEID=1, IPv4=172.16.1.104
+	LAST KNOWN CELL ID:	mcc=0, MNC=0, ECI=0, EUCI=0
+PDN CONNECTION:
+	APN IN USE:		default.mnc001.mcc001.gprs
+	PDN TYPE:		IPV4
+	PGW FTEID S5S8 CP:	Interface type=S5_S8_PGW_GTP_C, TEID=1, IPv4=172.58.58.101
+	SGW FTEID S5S8 CP:	Interface type=S5_S8_SGW_GTP_C, TEID=1, IPv4=172.58.58.102
+	DEFAULT BEARER:		5
+EPS BEARER:
+	EBI:				5
+	TFT:				TODO tft
+	PGW FTEID S5S8 UP:		Interface type=S5_S8_PGW_GTP_U, TEID=1, IPv4=192.168.248.159
+	SGW FTEID S5S8 UP:		null_fteid
+	SGW FTEID S1S12S4 UP:		Interface type=S1_U_SGW_GTP_U, TEID=1, IPv4=192.168.248.159
+	SGW FTEID S11 UP:		null_fteid
+	MME FTEID S11 UP:		null_fteid
+	eNB FTEID S1 UP:		null_fteid
+	Bearer QOS:			MBR UL=0, MBR DL=0, GBR UL=0, GBR DL=0, PCI=1, PL=15, PVI=1, QCI=9
+!
+[2019-06-15T09:25:28.920910] [spgwc] [gtpv2_c  ] [trace] Sending CREATE_SESSION_RESPONSE, seq 14816, teid 0x1, proc 0xc
+[2019-06-15T09:25:28.920957] [spgwc] [gtpv2_c  ] [trace] Stopped proc cleanup timer 22, proc 0xc
+[2019-06-15T09:25:29.139561] [spgwc] [gtpv2_c  ] [trace] Started proc cleanup timer 28, proc 0xf t-out 5000 ms
+[2019-06-15T09:25:29.139665] [spgwc] [gtpv2_c  ] [info ] Received Initial GTPV2-C msg type 34, seq 14817, proc 0xf
+[2019-06-15T09:25:29.139793] [spgwc] [sgwc_app ] [debug] Received S11 MODIFY_BEARER_REQUEST sender teid 0x1  gtpc_tx_id 0xf
+[2019-06-15T09:25:29.140400] [spgwc] [gtpv2_c  ] [trace] Sending MODIFY_BEARER_REQUEST, seq 1204318, teid 0x1, proc 0x10
+[2019-06-15T09:25:29.140448] [spgwc] [sgwc_app ] [debug] sgw_eps_bearer_context: SGW EPS BEARER CONTEXT:
+	IMSI:			001011234561001
+	IMSI UNAUTHENTICATED:	0
+	MME FTEID S11 CP:	Interface type=S11_MME_GTP_C, TEID=1, IPv4=172.16.1.102
+	SGW FTEID S11 CP:	Interface type=S11_S4_SGW_GTP_C, TEID=1, IPv4=172.16.1.104
+	LAST KNOWN CELL ID:	mcc=0, MNC=0, ECI=0, EUCI=0
+PDN CONNECTION:
+	APN IN USE:		default.mnc001.mcc001.gprs
+	PDN TYPE:		IPV4
+	PGW FTEID S5S8 CP:	Interface type=S5_S8_PGW_GTP_C, TEID=1, IPv4=172.58.58.101
+	SGW FTEID S5S8 CP:	Interface type=S5_S8_SGW_GTP_C, TEID=1, IPv4=172.58.58.102
+	DEFAULT BEARER:		5
+EPS BEARER:
+	EBI:				5
+	TFT:				TODO tft
+	PGW FTEID S5S8 UP:		Interface type=S5_S8_PGW_GTP_U, TEID=1, IPv4=192.168.248.159
+	SGW FTEID S5S8 UP:		null_fteid
+	SGW FTEID S1S12S4 UP:		Interface type=S1_U_SGW_GTP_U, TEID=1, IPv4=192.168.248.159
+	SGW FTEID S11 UP:		null_fteid
+	MME FTEID S11 UP:		null_fteid
+	eNB FTEID S1 UP:		Interface type=S1_U_ENODEB_GTP_U, TEID=3396329693, IPv4=192.168.248.194
+	Bearer QOS:			MBR UL=0, MBR DL=0, GBR UL=0, GBR DL=0, PCI=1, PL=15, PVI=1, QCI=9
+!
+[2019-06-15T09:25:29.140482] [spgwc] [gtpv2_c  ] [trace] Started Msg retry timer 29, proc 0x10, seq 1204318
+[2019-06-15T09:25:29.140547] [spgwc] [gtpv2_c  ] [trace] Started proc cleanup timer 30, proc 0x10 t-out 5000 ms
+[2019-06-15T09:25:29.140853] [spgwc] [gtpv2_c  ] [trace] Started proc cleanup timer 31, proc 0x11 t-out 5000 ms
+[2019-06-15T09:25:29.140891] [spgwc] [gtpv2_c  ] [info ] Received Initial GTPV2-C msg type 34, seq 1204318, proc 0x11
+[2019-06-15T09:25:29.140994] [spgwc] [pgwc_app ] [debug] Received S5S8 MODIFY_BEARER_REQUEST teid 0x1  gtpc_tx_id 0x11 
+PGW CONTEXT:
+	IMSI:				001011234561001
+	IMSI UNAUTHENTICATED:		0
+APN CONTEXT:
+	In use:				1
+	APN:				default.mnc001.mcc001.gprs
+	APN AMBR Bitrate Uplink:	50000
+	APN AMBR Bitrate Downlink:	100000
+PDN CONNECTION:
+	PDN type:			IPV4
+	PAA IPv4:			12.2.1.2
+	SGW FTEID S5S8 CP:		Interface type=S5_S8_SGW_GTP_C, TEID=1, IPv4=172.58.58.102
+	PGW FTEID S5S8 CP:		Interface type=S5_S8_PGW_GTP_C, TEID=1, IPv4=172.58.58.101
+	Default EBI:			5
+	SEID:			4294967297
+EPS BEARER:
+	EBI:				5
+	TFT:				TODO tft
+	SGW FTEID S5S8 UP:		null_fteid
+	PGW FTEID S5S8 UP:		Interface type=S5_S8_PGW_GTP_U, TEID=1, IPv4=192.168.248.159
+	Bearer QOS:			MBR UL=0, MBR DL=0, GBR UL=0, GBR DL=0, PCI=0, PL=0, PVI=0, QCI=0
+	PDR ID UL:			1
+	PDR ID DL:			0
+	PRECEDENCE:			0
+	FAR ID UL:			1
+
+[2019-06-15T09:25:29.141565] [spgwc] [pgwc_app ] [trace] pgw_pdn_connection::add_eps_bearer(5) success
+[2019-06-15T09:25:29.141591] [spgwc] [pgwc_app ] [info ] Sending ITTI message 38itti_sxab_session_modification_request to task TASK_PGWC_SX
+[2019-06-15T09:25:29.141961] [spgwc] [pfcp     ] [trace] Sending PFCP_SESSION_MODIFICATION_REQUEST, seq 16131619 seid 0x1 
+PGW CONTEXT:
+	IMSI:				001011234561001
+	IMSI UNAUTHENTICATED:		0
+APN CONTEXT:
+	In use:				1
+	APN:				default.mnc001.mcc001.gprs
+	APN AMBR Bitrate Uplink:	50000
+	APN AMBR Bitrate Downlink:	100000
+PDN CONNECTION:
+	PDN type:			IPV4
+	PAA IPv4:			12.2.1.2
+	SGW FTEID S5S8 CP:		Interface type=S5_S8_SGW_GTP_C, TEID=1, IPv4=172.58.58.102
+	PGW FTEID S5S8 CP:		Interface type=S5_S8_PGW_GTP_C, TEID=1, IPv4=172.58.58.101
+	Default EBI:			5
+	SEID:			4294967297
+EPS BEARER:
+	EBI:				5
+	TFT:				TODO tft
+	SGW FTEID S5S8 UP:		null_fteid
+	PGW FTEID S5S8 UP:		Interface type=S5_S8_PGW_GTP_U, TEID=1, IPv4=192.168.248.159
+	Bearer QOS:			MBR UL=0, MBR DL=0, GBR UL=0, GBR DL=0, PCI=0, PL=0, PVI=0, QCI=0
+	PDR ID UL:			1
+	PDR ID DL:			2
+	PRECEDENCE:			0
+	FAR ID UL:			1
+	FAR ID DL:			2
+
+[2019-06-15T09:25:29.143361] [spgwc] [pgwc_sx  ] [info ] handle_receive(31 bytes)
+[2019-06-15T09:25:29.143421] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 53 length 27
+[2019-06-15T09:25:29.143565] [spgwc] [pgwc_app ] [debug] Received SXAB SESSION MODIFICATION RESPONSE sender teid 0x1  pfcp_tx_id 12
+
+[2019-06-15T09:25:29.143630] [spgwc] [pgwc_app ] [error] Could not get local_up_fteid from created_pdr
+[2019-06-15T09:25:29.143674] [spgwc] [pgwc_app ] [trace] pgw_pdn_connection::add_eps_bearer(5) success
+[2019-06-15T09:25:29.143734] [spgwc] [pgwc_app ] [info ] Sending ITTI message MODIFY_BEARER_RESPONSE to task TASK_PGWC_S5S8
+PGW CONTEXT:
+	IMSI:				001011234561001
+	IMSI UNAUTHENTICATED:		0
+APN CONTEXT:
+	In use:				1
+	APN:				default.mnc001.mcc001.gprs
+	APN AMBR Bitrate Uplink:	50000
+	APN AMBR Bitrate Downlink:	100000
+PDN CONNECTION:
+	PDN type:			IPV4
+	PAA IPv4:			12.2.1.2
+	SGW FTEID S5S8 CP:		Interface type=S5_S8_SGW_GTP_C, TEID=1, IPv4=172.58.58.102
+	PGW FTEID S5S8 CP:		Interface type=S5_S8_PGW_GTP_C, TEID=1, IPv4=172.58.58.101
+	Default EBI:			5
+	SEID:			4294967297
+EPS BEARER:
+	EBI:				5
+	TFT:				TODO tft
+	SGW FTEID S5S8 UP:		Interface type=S1_U_ENODEB_GTP_U, TEID=3396329693, IPv4=192.168.248.194
+	PGW FTEID S5S8 UP:		Interface type=S5_S8_PGW_GTP_U, TEID=1, IPv4=192.168.248.159
+	Bearer QOS:			MBR UL=0, MBR DL=0, GBR UL=0, GBR DL=0, PCI=0, PL=0, PVI=0, QCI=0
+	PDR ID UL:			1
+	PDR ID DL:			2
+	PRECEDENCE:			0
+	FAR ID UL:			1
+	FAR ID DL:			2
+
+[2019-06-15T09:25:29.144077] [spgwc] [gtpv2_c  ] [trace] Sending MODIFY_BEARER_RESPONSE, seq 1204318, teid 0x1, proc 0x11
+[2019-06-15T09:25:29.144127] [spgwc] [gtpv2_c  ] [trace] Stopped proc cleanup timer 31, proc 0x11
+[2019-06-15T09:25:29.144233] [spgwc] [gtpv2_c  ] [info ] check_triggered_message_type GTPV2-C msg type 34/35
+[2019-06-15T09:25:29.144288] [spgwc] [gtpv2_c  ] [trace] Stopped Msg retry timer 29, proc 0x10, seq 1204318
+[2019-06-15T09:25:29.144309] [spgwc] [gtpv2_c  ] [info ] Received Triggered GTPV2-C msg type 35, seq 1204318, proc 0x10
+[2019-06-15T09:25:29.144466] [spgwc] [sgwc_app ] [debug] Received S5S8 MODIFY_BEARER_RESPONSE sender teid 0x1  gtpc_tx_id 0x10 
+[2019-06-15T09:25:29.144839] [spgwc] [sgwc_app ] [debug] sgw_eps_bearer_context: SGW EPS BEARER CONTEXT:
+	IMSI:			001011234561001
+	IMSI UNAUTHENTICATED:	0
+	MME FTEID S11 CP:	Interface type=S11_MME_GTP_C, TEID=1, IPv4=172.16.1.102
+	SGW FTEID S11 CP:	Interface type=S11_S4_SGW_GTP_C, TEID=1, IPv4=172.16.1.104
+	LAST KNOWN CELL ID:	mcc=0, MNC=0, ECI=0, EUCI=0
+PDN CONNECTION:
+	APN IN USE:		default.mnc001.mcc001.gprs
+	PDN TYPE:		IPV4
+	PGW FTEID S5S8 CP:	Interface type=S5_S8_PGW_GTP_C, TEID=1, IPv4=172.58.58.101
+	SGW FTEID S5S8 CP:	Interface type=S5_S8_SGW_GTP_C, TEID=1, IPv4=172.58.58.102
+	DEFAULT BEARER:		5
+EPS BEARER:
+	EBI:				5
+	TFT:				TODO tft
+	PGW FTEID S5S8 UP:		Interface type=S5_S8_PGW_GTP_U, TEID=1, IPv4=192.168.248.159
+	SGW FTEID S5S8 UP:		null_fteid
+	SGW FTEID S1S12S4 UP:		Interface type=S1_U_SGW_GTP_U, TEID=1, IPv4=192.168.248.159
+	SGW FTEID S11 UP:		null_fteid
+	MME FTEID S11 UP:		null_fteid
+	eNB FTEID S1 UP:		Interface type=S1_U_ENODEB_GTP_U, TEID=3396329693, IPv4=192.168.248.194
+	Bearer QOS:			MBR UL=0, MBR DL=0, GBR UL=0, GBR DL=0, PCI=1, PL=15, PVI=1, QCI=9
+!
+[2019-06-15T09:25:29.144970] [spgwc] [gtpv2_c  ] [trace] Sending MODIFY_BEARER_RESPONSE, seq 14817, teid 0x1, proc 0xf
+[2019-06-15T09:25:29.145064] [spgwc] [gtpv2_c  ] [trace] Stopped proc cleanup timer 28, proc 0xf
+[2019-06-15T09:25:32.000743] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 19
+[2019-06-15T09:25:32.002464] [spgwc] [pgwc_sx  ] [info ] PFCP HEARTBEAT PROCEDURE hash 1714894764 starting
+[2019-06-15T09:25:32.002628] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 16131620
+[2019-06-15T09:25:32.002637] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:32.002689] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-15T09:25:32.003073] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 4357464
+[2019-06-15T09:25:32.003247] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:32.003282] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 2 length 12
+[2019-06-15T09:25:33.915959] [spgwc] [sgwc_s5  ] [debug] TIME-OUT event timer id 24
+[2019-06-15T09:25:33.916067] [spgwc] [gtpv2_c  ] [trace] Delete proc 0xc Retry 0 seq 1204317 timer id 24
+[2019-06-15T09:25:33.917658] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 27
+[2019-06-15T09:25:34.140686] [spgwc] [sgwc_s5  ] [debug] TIME-OUT event timer id 30
+[2019-06-15T09:25:34.140755] [spgwc] [gtpv2_c  ] [trace] Delete proc 0x10 Retry 0 seq 1204318 timer id 30
+[2019-06-15T09:25:34.142170] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 33
+[2019-06-15T09:25:37.003017] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 36
+[2019-06-15T09:25:37.004142] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:37.004197] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-15T09:25:37.004285] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 4357465
+[2019-06-15T09:25:42.003467] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 38
+[2019-06-15T09:25:42.003686] [spgwc] [pgwc_sx  ] [info ] PFCP HEARTBEAT PROCEDURE hash 1714894764 starting
+[2019-06-15T09:25:42.003789] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 16131621
+[2019-06-15T09:25:42.004880] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:42.004928] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 2 length 12
+[2019-06-15T09:25:42.005259] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:42.005294] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-15T09:25:42.005380] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 4357466
+[2019-06-15T09:25:47.004005] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 42
+[2019-06-15T09:25:47.005882] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:47.005949] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-15T09:25:47.006047] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 4357467
+[2019-06-15T09:25:52.005142] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 43
+[2019-06-15T09:25:52.005369] [spgwc] [pgwc_sx  ] [info ] PFCP HEARTBEAT PROCEDURE hash 1714894764 starting
+[2019-06-15T09:25:52.005472] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 16131622
+[2019-06-15T09:25:52.006443] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:52.006492] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 2 length 12
+[2019-06-15T09:25:52.006731] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:52.006765] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-15T09:25:52.006837] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 4357468
+[2019-06-15T09:25:57.005692] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 48
+[2019-06-15T09:25:57.007325] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:57.007382] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-15T09:25:57.007472] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 4357469
+[2019-06-15T09:25:57.357179] [spgwc] [gtpv2_c  ] [trace] Started proc cleanup timer 52, proc 0x1c t-out 5000 ms
+[2019-06-15T09:25:57.357239] [spgwc] [gtpv2_c  ] [info ] Received Initial GTPV2-C msg type 170, seq 14818, proc 0x1c
+[2019-06-15T09:25:57.357323] [spgwc] [sgwc_app ] [debug] Received S11 RELEASE_ACCESS_BEARERS_REQUEST sender teid 0x1  gtpc_tx_id 0x1c
+[2019-06-15T09:25:57.357524] [spgwc] [gtpv2_c  ] [trace] Sending RELEASE_ACCESS_BEARERS_REQUEST, seq 1204319, teid 0x1, proc 0x1c
+[2019-06-15T09:25:57.357605] [spgwc] [gtpv2_c  ] [trace] Started Msg retry timer 53, proc 0x1c, seq 1204319
+[2019-06-15T09:25:57.357642] [spgwc] [gtpv2_c  ] [trace] Started proc cleanup timer 54, proc 0x1c t-out 5000 ms
+[2019-06-15T09:25:57.357737] [spgwc] [gtpv2_c  ] [error] GTP IE type 0 length 0
+[2019-06-15T09:25:57.357850] [spgwc] [gtpv2_c  ] [trace] Started proc cleanup timer 55, proc 0x1d t-out 5000 ms
+[2019-06-15T09:25:57.357893] [spgwc] [gtpv2_c  ] [info ] Received Initial GTPV2-C msg type 170, seq 1204319, proc 0x1d
+[2019-06-15T09:25:57.357878] [spgwc] [sgwc_app ] [debug] sgw_eps_bearer_context: SGW EPS BEARER CONTEXT:
+	IMSI:			001011234561001
+	IMSI UNAUTHENTICATED:	0
+	MME FTEID S11 CP:	Interface type=S11_MME_GTP_C, TEID=1, IPv4=172.16.1.102
+	SGW FTEID S11 CP:	Interface type=S11_S4_SGW_GTP_C, TEID=1, IPv4=172.16.1.104
+	LAST KNOWN CELL ID:	mcc=0, MNC=0, ECI=0, EUCI=0
+PDN CONNECTION:
+	APN IN USE:		default.mnc001.mcc001.gprs
+	PDN TYPE:		IPV4
+	PGW FTEID S5S8 CP:	Interface type=S5_S8_PGW_GTP_C, TEID=1, IPv4=172.58.58.101
+	SGW FTEID S5S8 CP:	Interface type=S5_S8_SGW_GTP_C, TEID=1, IPv4=172.58.58.102
+	DEFAULT BEARER:		5
+EPS BEARER:
+	EBI:				5
+	TFT:				TODO tft
+	PGW FTEID S5S8 UP:		Interface type=S5_S8_PGW_GTP_U, TEID=1, IPv4=192.168.248.159
+	SGW FTEID S5S8 UP:		null_fteid
+	SGW FTEID S1S12S4 UP:		Interface type=S1_U_SGW_GTP_U, TEID=1, IPv4=192.168.248.159
+	SGW FTEID S11 UP:		null_fteid
+	MME FTEID S11 UP:		null_fteid
+	eNB FTEID S1 UP:		Interface type=S1_U_ENODEB_GTP_U, TEID=3396329693, IPv4=192.168.248.194
+	Bearer QOS:			MBR UL=0, MBR DL=0, GBR UL=0, GBR DL=0, PCI=1, PL=15, PVI=1, QCI=9
+!
+[2019-06-15T09:25:57.358020] [spgwc] [pgwc_app ] [debug] Received S5S8 RELEASE_ACCESS_BEARERS_REQUEST teid 0x1  gtpc_tx_id 0x1d 
+[2019-06-15T09:25:57.358223] [spgwc] [pgwc_app ] [trace] pgw_pdn_connection::add_eps_bearer(5) success
+[2019-06-15T09:25:57.358253] [spgwc] [pgwc_app ] [info ] Sending ITTI message 38itti_sxab_session_modification_request to task TASK_PGWC_SX
+[2019-06-15T09:25:57.358374] [spgwc] [pfcp     ] [trace] Sending PFCP_SESSION_MODIFICATION_REQUEST, seq 16131623 seid 0x1 
+[2019-06-15T09:25:57.359126] [spgwc] [pgwc_sx  ] [info ] handle_receive(21 bytes)
+[2019-06-15T09:25:57.359165] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 53 length 17
+[2019-06-15T09:25:57.359268] [spgwc] [pgwc_app ] [debug] Received SXAB SESSION MODIFICATION RESPONSE sender teid 0x1  pfcp_tx_id 1E
+
+[2019-06-15T09:25:57.359290] [spgwc] [pgwc_app ] [info ] Sending ITTI message RELEASE_ACCESS_BEARERS_RESPONSE to task TASK_PGWC_S5S8
+[2019-06-15T09:25:57.359377] [spgwc] [gtpv2_c  ] [trace] Sending RELEASE_ACCESS_BEARERS_RESPONSE, seq 1204319, teid 0x1, proc 0x1d
+[2019-06-15T09:25:57.359425] [spgwc] [gtpv2_c  ] [trace] Stopped proc cleanup timer 55, proc 0x1d
+[2019-06-15T09:25:57.359445] [spgwc] [gtpv2_c  ] [info ] check_triggered_message_type GTPV2-C msg type 170/171
+[2019-06-15T09:25:57.359485] [spgwc] [gtpv2_c  ] [trace] Stopped Msg retry timer 53, proc 0x1c, seq 1204319
+[2019-06-15T09:25:57.359499] [spgwc] [gtpv2_c  ] [info ] Received Triggered GTPV2-C msg type 171, seq 1204319, proc 0x1c
+PGW CONTEXT:
+	IMSI:				001011234561001
+	IMSI UNAUTHENTICATED:		0
+APN CONTEXT:
+	In use:				1
+	APN:				default.mnc001.mcc001.gprs
+	APN AMBR Bitrate Uplink:	50000
+	APN AMBR Bitrate Downlink:	100000
+PDN CONNECTION:
+	PDN type:			IPV4
+	PAA IPv4:			12.2.1.2
+	SGW FTEID S5S8 CP:		Interface type=S5_S8_SGW_GTP_C, TEID=1, IPv4=172.58.58.102
+	PGW FTEID S5S8 CP:		Interface type=S5_S8_PGW_GTP_C, TEID=1, IPv4=172.58.58.101
+	Default EBI:			5
+	SEID:			4294967297
+EPS BEARER:
+	EBI:				5
+	TFT:				TODO tft
+	SGW FTEID S5S8 UP:		Interface type=S1_U_ENODEB_GTP_U, TEID=3396329693, IPv4=192.168.248.194
+	PGW FTEID S5S8 UP:		Interface type=S5_S8_PGW_GTP_U, TEID=1, IPv4=192.168.248.159
+	Bearer QOS:			MBR UL=0, MBR DL=0, GBR UL=0, GBR DL=0, PCI=0, PL=0, PVI=0, QCI=0
+	PDR ID UL:			1
+	PDR ID DL:			2
+	PRECEDENCE:			0
+	FAR ID UL:			1
+	FAR ID DL:			2
+
+[2019-06-15T09:25:57.359536] [spgwc] [sgwc_app ] [debug] Received S5S8 RELEASE_ACCESS_BEARERS_RESPONSE sender teid 0x1  gtpc_tx_id 0x1c 
+[2019-06-15T09:25:57.359659] [spgwc] [gtpv2_c  ] [trace] Sending RELEASE_ACCESS_BEARERS_RESPONSE, seq 14818, teid 0x1, proc 0x1c
+[2019-06-15T09:25:57.359709] [spgwc] [gtpv2_c  ] [trace] Stopped proc cleanup timer 52, proc 0x1c
+[2019-06-15T09:25:57.359831] [spgwc] [sgwc_app ] [debug] sgw_eps_bearer_context: SGW EPS BEARER CONTEXT:
+	IMSI:			001011234561001
+	IMSI UNAUTHENTICATED:	0
+	MME FTEID S11 CP:	Interface type=S11_MME_GTP_C, TEID=1, IPv4=172.16.1.102
+	SGW FTEID S11 CP:	Interface type=S11_S4_SGW_GTP_C, TEID=1, IPv4=172.16.1.104
+	LAST KNOWN CELL ID:	mcc=0, MNC=0, ECI=0, EUCI=0
+PDN CONNECTION:
+	APN IN USE:		default.mnc001.mcc001.gprs
+	PDN TYPE:		IPV4
+	PGW FTEID S5S8 CP:	Interface type=S5_S8_PGW_GTP_C, TEID=1, IPv4=172.58.58.101
+	SGW FTEID S5S8 CP:	Interface type=S5_S8_SGW_GTP_C, TEID=1, IPv4=172.58.58.102
+	DEFAULT BEARER:		5
+EPS BEARER:
+	EBI:				5
+	TFT:				TODO tft
+	PGW FTEID S5S8 UP:		Interface type=S5_S8_PGW_GTP_U, TEID=1, IPv4=192.168.248.159
+	SGW FTEID S5S8 UP:		null_fteid
+	SGW FTEID S1S12S4 UP:		Interface type=S1_U_SGW_GTP_U, TEID=1, IPv4=192.168.248.159
+	SGW FTEID S11 UP:		null_fteid
+	MME FTEID S11 UP:		null_fteid
+	eNB FTEID S1 UP:		Interface type=S1_U_ENODEB_GTP_U, TEID=3396329693, IPv4=192.168.248.194
+	Bearer QOS:			MBR UL=0, MBR DL=0, GBR UL=0, GBR DL=0, PCI=1, PL=15, PVI=1, QCI=9
+!
+Caught signal 2
+[2019-06-15T09:26:01.750890] [spgwc] [system   ] [start] exiting
+[2019-06-15T09:26:01.751072] [spgwc] [async_c  ] [info ] Received terminate message
+[2019-06-15T09:26:01.751230] [spgwc] [itti     ] [info ] Waiting ITTI tasks closed
+[2019-06-15T09:26:01.751232] [spgwc] [pgwc_s5  ] [info ] Received terminate message
+[2019-06-15T09:26:01.751262] [spgwc] [sgwc_s11 ] [info ] Received terminate message
+[2019-06-15T09:26:01.751258] [spgwc] [sgwc_s5  ] [info ] Received terminate message
+[2019-06-15T09:26:01.751372] [spgwc] [sgwc_app ] [info ] Received terminate message
+[2019-06-15T09:26:01.751383] [spgwc] [pgwc_app ] [info ] Received terminate message
+[2019-06-15T09:26:01.751424] [spgwc] [pgwc_sx  ] [info ] Received terminate message
+[2019-06-15T09:26:01.751786] [spgwc] [itti     ] [info ] All ITTI tasks closed
+Freeing Allocated memory...
+Async Shell CMD memory done.
+~itti()
+~itti() Done!
+ITTI memory done.
+SGW APP memory done.
+PGW APP memory done.
+Freeing Allocated memory done
+ FTEID S1 UP:		Interface type=S1_U_ENODEB_GTP_U, TEID=3396329693, IPv4=192.168.248.194
+	Bearer QOS:			MBR UL=0, MBR DL=0, GBR UL=0, GBR DL=0, PCI=1, PL=15, PVI=1, QCI=9
+!
+[2019-06-15T09:25:57.358020] [spgwc] [pgwc_app ] [debug] Received S5S8 RELEASE_ACCESS_BEARERS_REQUEST teid 0x1  gtpc_tx_id 0x1d 
+[2019-06-15T09:25:57.358223] [spgwc] [pgwc_app ] [trace] pgw_pdn_connection::add_eps_bearer(5) success
+[2019-06-15T09:25:57.358253] [spgwc] [pgwc_app ] [info ] Sending ITTI message 38itti_sxab_session_modification_request to task TASK_PGWC_SX
+[2019-06-15T09:25:57.358374] [spgwc] [pfcp     ] [trace] Sending PFCP_SESSION_MODIFICATION_REQUEST, seq 16131623 seid 0x1 
+[2019-06-15T09:25:57.359126] [spgwc] [pgwc_sx  ] [info ] handle_receive(21 bytes)
+[2019-06-15T09:25:57.359165] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 53 length 17
+[2019-06-15T09:25:57.359268] [spgwc] [pgwc_app ] [debug] Received SXAB SESSION MODIFICATION RESPONSE sender teid 0x1  pfcp_tx_id 1E
+
+[2019-06-15T09:25:57.359290] [spgwc] [pgwc_app ] [info ] Sending ITTI message RELEASE_ACCESS_BEARERS_RESPONSE to task TASK_PGWC_S5S8
+[2019-06-15T09:25:57.359377] [spgwc] [gtpv2_c  ] [trace] Sending RELEASE_ACCESS_BEARERS_RESPONSE, seq 1204319, teid 0x1, proc 0x1d
+[2019-06-15T09:25:57.359425] [spgwc] [gtpv2_c  ] [trace] Stopped proc cleanup timer 55, proc 0x1d
+[2019-06-15T09:25:57.359445] [spgwc] [gtpv2_c  ] [info ] check_triggered_message_type GTPV2-C msg type 170/171
+[2019-06-15T09:25:57.359485] [spgwc] [gtpv2_c  ] [trace] Stopped Msg retry timer 53, proc 0x1c, seq 1204319
+[2019-06-15T09:25:57.359499] [spgwc] [gtpv2_c  ] [info ] Received Triggered GTPV2-C msg type 171, seq 1204319, proc 0x1c
+[2019-06-15T09:25:57.359536] [spgwc] [sgwc_app ] [debug] Received S5S8 RELEASE_ACCESS_BEARERS_RESPONSE sender teid 0x1  gtpc_tx_id 0x1c 
+[2019-06-15T09:25:57.359659] [spgwc] [gtpv2_c  ] [trace] Sending RELEASE_ACCESS_BEARERS_RESPONSE, seq 14818, teid 0x1, proc 0x1c
+[2019-06-15T09:25:57.359709] [spgwc] [gtpv2_c  ] [trace] Stopped proc cleanup timer 52, proc 0x1c
+[2019-06-15T09:25:57.359831] [spgwc] [sgwc_app ] [debug] sgw_eps_bearer_context: SGW EPS BEARER CONTEXT:
+	IMSI:			001011234561001
+	IMSI UNAUTHENTICATED:	0
+	MME FTEID S11 CP:	Interface type=S11_MME_GTP_C, TEID=1, IPv4=172.16.1.102
+	SGW FTEID S11 CP:	Interface type=S11_S4_SGW_GTP_C, TEID=1, IPv4=172.16.1.104
+	LAST KNOWN CELL ID:	mcc=0, MNC=0, ECI=0, EUCI=0
+PDN CONNECTION:
+	APN IN USE:		default.mnc001.mcc001.gprs
+	PDN TYPE:		IPV4
+	PGW FTEID S5S8 CP:	Interface type=S5_S8_PGW_GTP_C, TEID=1, IPv4=172.58.58.101
+	SGW FTEID S5S8 CP:	Interface type=S5_S8_SGW_GTP_C, TEID=1, IPv4=172.58.58.102
+	DEFAULT BEARER:		5
+EPS BEARER:
+	EBI:				5
+	TFT:				TODO tft
+	PGW FTEID S5S8 UP:		Interface type=S5_S8_PGW_GTP_U, TEID=1, IPv4=192.168.248.159
+	SGW FTEID S5S8 UP:		null_fteid
+	SGW FTEID S1S12S4 UP:		Interface type=S1_U_SGW_GTP_U, TEID=1, IPv4=192.168.248.159
+	SGW FTEID S11 UP:		null_fteid
+	MME FTEID S11 UP:		null_fteid
+	eNB FTEID S1 UP:		Interface type=S1_U_ENODEB_GTP_U, TEID=3396329693, IPv4=192.168.248.194
+	Bearer QOS:			MBR UL=0, MBR DL=0, GBR UL=0, GBR DL=0, PCI=1, PL=15, PVI=1, QCI=9
+!
+[2019-06-15T09:26:01.750890] [spgwc] [system   ] [start] exiting
+[2019-06-15T09:26:01.751072] [spgwc] [async_c  ] [info ] Received terminate message
+[2019-06-15T09:26:01.751230] [spgwc] [itti     ] [info ] Waiting ITTI tasks closed
+[2019-06-15T09:26:01.751232] [spgwc] [pgwc_s5  ] [info ] Received terminate message
+[2019-06-15T09:26:01.751262] [spgwc] [sgwc_s11 ] [info ] Received terminate message
+[2019-06-15T09:26:01.751258] [spgwc] [sgwc_s5  ] [info ] Rece

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSGWC.a  CMakeFiles/SGWC.dir/sgwc_app.cpp.o CMakeFiles/SGWC.dir/sgwc_config.cpp.o CMakeFiles/SGWC.dir/sgwc_eps_bearer_context.cpp.o CMakeFiles/SGWC.dir/sgwc_pdn_connection.cpp.o CMakeFiles/SGWC.dir/sgwc_procedure.cpp.o CMakeFiles/SGWC.dir/sgwc_s11.cpp.o CMakeFiles/SGWC.dir/sgwc_s5s8.cpp.o
+/usr/bin/ranlib libSGWC.a

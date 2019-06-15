@@ -1,0 +1,58 @@
+Scanning dependencies of target 3GPP_COMMON_TYPES
+Scanning dependencies of target UDP
+Scanning dependencies of target GTPV2C
+Scanning dependencies of target CN_UTILS
+[  2%] Building CXX object udp/CMakeFiles/UDP.dir/udp.cpp.o
+[  4%] Building CXX object gtpv2c/CMakeFiles/GTPV2C.dir/3gpp_29.274.cpp.o
+[  7%] Building CXX object gtpv2c/CMakeFiles/GTPV2C.dir/gtpv2c.cpp.o
+[  9%] Building CXX object utils/CMakeFiles/CN_UTILS.dir/3gpp_conversions.cpp.o
+Scanning dependencies of target PFCP
+Scanning dependencies of target SGWC
+Scanning dependencies of target PGWC
+[ 11%] Building CXX object common/CMakeFiles/3GPP_COMMON_TYPES.dir/logger.cpp.o
+[ 14%] Building CXX object sgwc/CMakeFiles/SGWC.dir/sgwc_app.cpp.o
+[ 16%] Building CXX object pgwc/CMakeFiles/PGWC.dir/pgw_app.cpp.o
+[ 19%] Building CXX object pfcp/CMakeFiles/PFCP.dir/3gpp_29.244.cpp.o
+[ 21%] Building CXX object utils/CMakeFiles/CN_UTILS.dir/async_shell_cmd.cpp.o
+[ 23%] Linking CXX static library libUDP.a
+[ 23%] Built target UDP
+[ 26%] Building CXX object utils/CMakeFiles/CN_UTILS.dir/conversions.cpp.o
+[ 28%] Building CXX object utils/CMakeFiles/CN_UTILS.dir/epc.cpp.o
+[ 30%] Linking CXX static library lib3GPP_COMMON_TYPES.a
+[ 30%] Built target 3GPP_COMMON_TYPES
+[ 33%] Building CXX object utils/CMakeFiles/CN_UTILS.dir/get_gateway_netlink.cpp.o
+[ 35%] Building CXX object utils/CMakeFiles/CN_UTILS.dir/if.cpp.o
+[ 38%] Building CXX object sgwc/CMakeFiles/SGWC.dir/sgwc_config.cpp.o
+[ 40%] Building CXX object utils/CMakeFiles/CN_UTILS.dir/pid_file.cpp.o
+[ 42%] Building CXX object utils/CMakeFiles/CN_UTILS.dir/string.cpp.o
+[ 45%] Linking CXX static library libGTPV2C.a
+[ 45%] Built target GTPV2C
+[ 47%] Building CXX object sgwc/CMakeFiles/SGWC.dir/sgwc_eps_bearer_context.cpp.o
+[ 50%] Building CXX object pgwc/CMakeFiles/PGWC.dir/pgw_config.cpp.o
+[ 52%] Building CXX object pgwc/CMakeFiles/PGWC.dir/pgw_context.cpp.o
+[ 54%] Building CXX object utils/CMakeFiles/CN_UTILS.dir/thread_sched.cpp.o
+[ 57%] Building CXX object sgwc/CMakeFiles/SGWC.dir/sgwc_pdn_connection.cpp.o
+[ 59%] Building CXX object pfcp/CMakeFiles/PFCP.dir/pfcp.cpp.o
+[ 61%] Building CXX object sgwc/CMakeFiles/SGWC.dir/sgwc_procedure.cpp.o
+[ 64%] Linking CXX static library libCN_UTILS.a
+[ 64%] Built target CN_UTILS
+[ 66%] Building CXX object pgwc/CMakeFiles/PGWC.dir/pgw_pfcp_association.cpp.o
+[ 69%] Building CXX object pgwc/CMakeFiles/PGWC.dir/pgw_pco.cpp.o
+[ 71%] Building CXX object sgwc/CMakeFiles/SGWC.dir/sgwc_s11.cpp.o
+[ 73%] Building CXX object sgwc/CMakeFiles/SGWC.dir/sgwc_s5s8.cpp.o
+[ 76%] Building CXX object pgwc/CMakeFiles/PGWC.dir/pgw_s5s8.cpp.o
+[ 78%] Linking CXX static library libPFCP.a
+[ 78%] Built target PFCP
+[ 80%] Building CXX object pgwc/CMakeFiles/PGWC.dir/pgwc_procedure.cpp.o
+[ 83%] Building CXX object pgwc/CMakeFiles/PGWC.dir/pgwc_sxab.cpp.o
+[ 85%] Linking CXX static library libSGWC.a
+[ 85%] Built target SGWC
+[ 88%] Linking CXX static library libPGWC.a
+[ 88%] Built target PGWC
+Scanning dependencies of target spgwc
+[ 97%] Building CXX object CMakeFiles/spgwc.dir/home/lixh/openair-cn-cups/src/oai_spgwc/main.cpp.o
+[ 97%] Building CXX object CMakeFiles/spgwc.dir/home/lixh/openair-cn-cups/src/itti/itti.cpp.o
+[ 97%] Building CXX object CMakeFiles/spgwc.dir/home/lixh/openair-cn-cups/src/itti/itti_msg.cpp.o
+[ 97%] Building CXX object CMakeFiles/spgwc.dir/home/lixh/openair-cn-cups/src/oai_spgwc/options.cpp.o
+[100%] Linking CXX executable spgwc
+[100%] Built target spgwc

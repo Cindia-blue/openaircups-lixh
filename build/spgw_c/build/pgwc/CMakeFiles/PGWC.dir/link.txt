@@ -1,0 +1,2 @@
+/usr/bin/ar qc libPGWC.a  CMakeFiles/PGWC.dir/pgw_app.cpp.o CMakeFiles/PGWC.dir/pgw_config.cpp.o CMakeFiles/PGWC.dir/pgw_context.cpp.o CMakeFiles/PGWC.dir/pgw_pfcp_association.cpp.o CMakeFiles/PGWC.dir/pgw_pco.cpp.o CMakeFiles/PGWC.dir/pgw_s5s8.cpp.o CMakeFiles/PGWC.dir/pgwc_procedure.cpp.o CMakeFiles/PGWC.dir/pgwc_sxab.cpp.o
+/usr/bin/ranlib libPGWC.a

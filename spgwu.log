@@ -1,0 +1,260 @@
+[2019-06-15T09:24:51.989684] [spgwu] [spgwu_app] [start] Options parsed
+[2019-06-15T09:24:51.990288] [spgwu] [spgwu_app] [info ] SettingNotFoundException : SPGW-U.ITTI_TASKS, using defaults
+[2019-06-15T09:24:51.990394] [spgwu] [spgwu_app] [info ] SettingNotFoundException : SPGW-U.INTERFACES.S1U_S12_S4_UP.SCHED_PARAMS, using defaults
+[2019-06-15T09:24:51.990489] [spgwu] [spgwu_app] [info ] SettingNotFoundException : SPGW-U.INTERFACES.SX.SCHED_PARAMS, using defaults
+[2019-06-15T09:24:51.990562] [spgwu] [spgwu_app] [info ] SettingNotFoundException : SPGW-U.INTERFACES.SGI.SCHED_PARAMS, using defaults
+[2019-06-15T09:24:51.990722] [spgwu] [spgwu_app] [info ]   2001:1:2::0......: 2001:1:2::/64
+[2019-06-15T09:24:51.990797] [spgwu] [spgwu_app] [info ] ==== EURECOM SPGW-U vBranch: master Abrev. Hash: 4fee0d1 Date: Mon May 27 12:59:45 2019 +0200 ====
+[2019-06-15T09:24:51.990812] [spgwu] [spgwu_app] [info ] Configuration:
+[2019-06-15T09:24:51.990821] [spgwu] [spgwu_app] [info ] - Instance ..............: 1
+[2019-06-15T09:24:51.990830] [spgwu] [spgwu_app] [info ] - PID dir ...............: /var/run
+[2019-06-15T09:24:51.990838] [spgwu] [spgwu_app] [info ] - ITTI tasks:
+[2019-06-15T09:24:51.990846] [spgwu] [spgwu_app] [info ]     ITTI Timer task:
+[2019-06-15T09:24:51.990855] [spgwu] [spgwu_app] [info ]       CPU ID .........: 0
+[2019-06-15T09:24:51.990863] [spgwu] [spgwu_app] [info ]       sched policy....: 1
+[2019-06-15T09:24:51.990871] [spgwu] [spgwu_app] [info ]       sched priority..: 85
+[2019-06-15T09:24:51.990879] [spgwu] [spgwu_app] [info ]     SPGWU-S1U task:
+[2019-06-15T09:24:51.990887] [spgwu] [spgwu_app] [info ]       CPU ID .........: 0
+[2019-06-15T09:24:51.990895] [spgwu] [spgwu_app] [info ]       sched policy....: 1
+[2019-06-15T09:24:51.990902] [spgwu] [spgwu_app] [info ]       sched priority..: 84
+[2019-06-15T09:24:51.990910] [spgwu] [spgwu_app] [info ]     SPGWU-SX task:
+[2019-06-15T09:24:51.990918] [spgwu] [spgwu_app] [info ]       CPU ID .........: 0
+[2019-06-15T09:24:51.990926] [spgwu] [spgwu_app] [info ]       sched policy....: 1
+[2019-06-15T09:24:51.990934] [spgwu] [spgwu_app] [info ]       sched priority..: 84
+[2019-06-15T09:24:51.990942] [spgwu] [spgwu_app] [info ]     SPGWU_APP task:
+[2019-06-15T09:24:51.990950] [spgwu] [spgwu_app] [info ]       CPU ID .........: 0
+[2019-06-15T09:24:51.990958] [spgwu] [spgwu_app] [info ]       sched policy....: 1
+[2019-06-15T09:24:51.990966] [spgwu] [spgwu_app] [info ]       sched priority..: 84
+[2019-06-15T09:24:51.990974] [spgwu] [spgwu_app] [info ]     ASYNC_SHELL_CMD task:
+[2019-06-15T09:24:51.990982] [spgwu] [spgwu_app] [info ]       CPU ID .........: 0
+[2019-06-15T09:24:51.990990] [spgwu] [spgwu_app] [info ]       sched policy....: 1
+[2019-06-15T09:24:51.990998] [spgwu] [spgwu_app] [info ]       sched priority..: 84
+[2019-06-15T09:24:51.991006] [spgwu] [spgwu_app] [info ] - S1u_S12_S4:
+[2019-06-15T09:24:51.991014] [spgwu] [spgwu_app] [info ]     iface ............: ens256
+[2019-06-15T09:24:51.991023] [spgwu] [spgwu_app] [info ]     ipv4.addr ........: 192.168.248.159
+[2019-06-15T09:24:51.991032] [spgwu] [spgwu_app] [info ]     ipv4.mask ........: 255.255.255.0
+[2019-06-15T09:24:51.991040] [spgwu] [spgwu_app] [info ]     mtu ..............: 1500
+[2019-06-15T09:24:51.991048] [spgwu] [spgwu_app] [info ]     port .............: 2152
+[2019-06-15T09:24:51.991056] [spgwu] [spgwu_app] [info ]     Reader thread:
+[2019-06-15T09:24:51.991064] [spgwu] [spgwu_app] [info ]       CPU ID .........: 0
+[2019-06-15T09:24:51.991072] [spgwu] [spgwu_app] [info ]       sched policy....: 1
+[2019-06-15T09:24:51.991080] [spgwu] [spgwu_app] [info ]       sched priority..: 98
+[2019-06-15T09:24:51.991088] [spgwu] [spgwu_app] [info ] - SXA-SXB:
+[2019-06-15T09:24:51.991096] [spgwu] [spgwu_app] [info ]     iface ............: ens193:sxu
+[2019-06-15T09:24:51.991105] [spgwu] [spgwu_app] [info ]     ipv4.addr ........: 172.55.55.102
+[2019-06-15T09:24:51.991113] [spgwu] [spgwu_app] [info ]     ipv4.mask ........: 255.255.0.0
+[2019-06-15T09:24:51.991121] [spgwu] [spgwu_app] [info ]     mtu ..............: 1500
+[2019-06-15T09:24:51.991142] [spgwu] [spgwu_app] [info ]     port .............: 8805
+[2019-06-15T09:24:51.991151] [spgwu] [spgwu_app] [info ]     Reader thread:
+[2019-06-15T09:24:51.991158] [spgwu] [spgwu_app] [info ]       CPU ID .........: 0 (TODO)
+[2019-06-15T09:24:51.991166] [spgwu] [spgwu_app] [info ]       sched policy....: 1 (TODO)
+[2019-06-15T09:24:51.991174] [spgwu] [spgwu_app] [info ]       sched priority..: 95 (TODO)
+[2019-06-15T09:24:51.991181] [spgwu] [spgwu_app] [info ] - SGi:
+[2019-06-15T09:24:51.991188] [spgwu] [spgwu_app] [info ]     iface ............: ens257
+[2019-06-15T09:24:51.991196] [spgwu] [spgwu_app] [info ]     ipv4.addr ........: 12.1.1.11
+[2019-06-15T09:24:51.991204] [spgwu] [spgwu_app] [info ]     ipv4.mask ........: 255.255.255.0
+[2019-06-15T09:24:51.991212] [spgwu] [spgwu_app] [info ]     mtu ..............: 1500
+[2019-06-15T09:24:51.991219] [spgwu] [spgwu_app] [info ]     gateway ..........: 
+[2019-06-15T09:24:51.991227] [spgwu] [spgwu_app] [info ]     Reader thread:
+[2019-06-15T09:24:51.991234] [spgwu] [spgwu_app] [info ]       CPU ID .........: 0
+[2019-06-15T09:24:51.991241] [spgwu] [spgwu_app] [info ]       sched policy....: 1
+[2019-06-15T09:24:51.991249] [spgwu] [spgwu_app] [info ]       sched priority..: 98
+[2019-06-15T09:24:51.991256] [spgwu] [spgwu_app] [info ] - PDN networks:
+[2019-06-15T09:24:51.991264] [spgwu] [spgwu_app] [info ]     PDN 1 ............: snat yes
+[2019-06-15T09:24:51.991282] [spgwu] [spgwu_app] [info ]        NW .............: 12.2.1.12/24
+[2019-06-15T09:24:51.991295] [spgwu] [spgwu_app] [info ]        NW .............: 2001:1:2::/64
+[2019-06-15T09:24:51.991346] [spgwu] [itti     ] [start] Starting...
+[2019-06-15T09:24:51.991559] [spgwu] [itti     ] [start] Started
+[2019-06-15T09:24:51.991569] [spgwu] [itti     ] [info ] Starting timer_manager_task
+[2019-06-15T09:24:51.991586] [spgwu] [async_c  ] [start] Starting...
+[2019-06-15T09:24:51.992848] [spgwu] [async_c  ] [start] Started
+[2019-06-15T09:24:51.992868] [spgwu] [spgwu_app] [start] Starting...
+[2019-06-15T09:24:51.994116] [spgwu] [udp      ] [debug] Creating new listen socket on address 172.55.55.102 and port 8805
+
+[2019-06-15T09:24:51.994150] [spgwu] [udp      ] [debug] udp_server::udp_server(172.55.55.102:8805)
+[2019-06-15T09:24:51.994171] [spgwu] [udp      ] [debug] Creating new listen socket on address 172.55.55.102 and port 0
+
+[2019-06-15T09:24:51.994184] [spgwu] [udp      ] [debug] udp_server::udp_server(172.55.55.102:0)
+[2019-06-15T09:24:51.994200] [spgwu] [pfcp     ] [info ] pfcp_l4_stack created listening to 172.55.55.102:8805
+[2019-06-15T09:24:51.994214] [spgwu] [udp      ] [trace] udp_server::start_receive
+[2019-06-15T09:24:51.994350] [spgwu] [udp      ] [trace] udp_server::start_receive
+[2019-06-15T09:24:51.994499] [spgwu] [spgwu_sx ] [start] Starting...
+[2019-06-15T09:24:51.995905] [spgwu] [pfcp     ] [trace] Sending PFCP_ASSOCIATION_SETUP_REQUEST, seq 4357456
+[2019-06-15T09:24:51.996068] [spgwu] [spgwu_sx ] [start] Started
+[2019-06-15T09:24:51.996104] [spgwu] [udp      ] [debug] Creating new listen socket on address 192.168.248.159 and port 2152
+
+[2019-06-15T09:24:51.996122] [spgwu] [udp      ] [debug] udp_server::udp_server(192.168.248.159:2152)
+[2019-06-15T09:24:51.996140] [spgwu] [gtpv1_u  ] [info ] gtpu_l4_stack created listening to 192.168.248.159:2152
+[2019-06-15T09:24:51.996156] [spgwu] [udp      ] [trace] udp_server::start_receive
+[2019-06-15T09:24:51.996278] [spgwu] [spgwu_s1u] [start] Starting...
+[2019-06-15T09:24:51.996754] [spgwu] [spgwu_sx ] [info ] handle_receive(35 bytes)
+[2019-06-15T09:24:51.996890] [spgwu] [spgwu_sx ] [info ] Received SX ASSOCIATION SETUP RESPONSE
+[2019-06-15T09:24:51.997485] [spgwu] [spgwu_s1u] [start] Started
+net.ipv4.conf.all.forwarding = 1
+net.ipv4.conf.all.send_redirects = 0
+net.ipv4.conf.default.send_redirects = 0
+net.ipv4.conf.all.accept_redirects = 0
+net.ipv4.conf.default.accept_redirects = 0
+net.ipv4.conf.pdn.send_redirects = 0
+net.ipv4.conf.pdn.accept_redirects = 0
+[2019-06-15T09:24:53.106177] [spgwu] [spgwu_app] [start] Started
+[2019-06-15T09:24:56.996186] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 2
+[2019-06-15T09:24:56.997140] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 3
+[2019-06-15T09:24:56.997167] [spgwu] [spgwu_sx ] [info ] PFCP HEARTBEAT PROCEDURE hash 1698117548 starting
+[2019-06-15T09:24:56.997345] [spgwu] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 4357457
+[2019-06-15T09:24:56.997885] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:24:56.997959] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT RESPONSE
+[2019-06-15T09:25:01.997316] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:01.997618] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT REQUEST
+[2019-06-15T09:25:01.997740] [spgwu] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 16131615
+[2019-06-15T09:25:01.998153] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 6
+[2019-06-15T09:25:01.998200] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 7
+[2019-06-15T09:25:01.998220] [spgwu] [spgwu_sx ] [info ] PFCP HEARTBEAT PROCEDURE hash 1698117548 starting
+[2019-06-15T09:25:01.998296] [spgwu] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 4357458
+[2019-06-15T09:25:01.998613] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:01.998689] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT RESPONSE
+[2019-06-15T09:25:06.998508] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 11
+[2019-06-15T09:25:06.998856] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 12
+[2019-06-15T09:25:06.998878] [spgwu] [spgwu_sx ] [info ] PFCP HEARTBEAT PROCEDURE hash 1698117548 starting
+[2019-06-15T09:25:06.998952] [spgwu] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 4357459
+[2019-06-15T09:25:06.999280] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:06.999334] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT RESPONSE
+[2019-06-15T09:25:11.998595] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:11.998725] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT REQUEST
+[2019-06-15T09:25:11.998770] [spgwu] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 16131616
+[2019-06-15T09:25:11.999108] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 15
+[2019-06-15T09:25:11.999435] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 16
+[2019-06-15T09:25:11.999452] [spgwu] [spgwu_sx ] [info ] PFCP HEARTBEAT PROCEDURE hash 1698117548 starting
+[2019-06-15T09:25:11.999500] [spgwu] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 4357460
+[2019-06-15T09:25:11.999716] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:11.999765] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT RESPONSE
+[2019-06-15T09:25:16.999680] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 20
+[2019-06-15T09:25:16.999875] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 21
+[2019-06-15T09:25:16.999898] [spgwu] [spgwu_sx ] [info ] PFCP HEARTBEAT PROCEDURE hash 1698117548 starting
+[2019-06-15T09:25:16.999972] [spgwu] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 4357461
+[2019-06-15T09:25:17.000304] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:17.000358] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT RESPONSE
+[2019-06-15T09:25:21.999503] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:22.000295] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT REQUEST
+[2019-06-15T09:25:22.000381] [spgwu] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 16131617
+[2019-06-15T09:25:22.000662] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 24
+[2019-06-15T09:25:22.000706] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 25
+[2019-06-15T09:25:22.000725] [spgwu] [spgwu_sx ] [info ] PFCP HEARTBEAT PROCEDURE hash 1698117548 starting
+[2019-06-15T09:25:22.000786] [spgwu] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 4357462
+[2019-06-15T09:25:22.001053] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:22.001115] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT RESPONSE
+[2019-06-15T09:25:27.000978] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 29
+[2019-06-15T09:25:27.001235] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 30
+[2019-06-15T09:25:27.001258] [spgwu] [spgwu_sx ] [info ] PFCP HEARTBEAT PROCEDURE hash 1698117548 starting
+[2019-06-15T09:25:27.001355] [spgwu] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 4357463
+[2019-06-15T09:25:27.001695] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:27.001749] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT RESPONSE
+[2019-06-15T09:25:28.917642] [spgwu] [spgwu_sx ] [info ] handle_receive(122 bytes)
+[2019-06-15T09:25:28.918269] [spgwu] [spgwu_app] [info ] Received SXAB_SESSION_ESTABLISHMENT_REQUEST seid 0x0 
+[2019-06-15T09:25:28.918448] [spgwu] [spgwu_sx ] [info ] pfcp_session::add(far) seid 0x1 
+[2019-06-15T09:25:28.918615] [spgwu] [spgwu_sx ] [info ] pfcp_session::add(pdr) seid 0x1 
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| PFCP switch Packet Detection Rule list ordered by established sessions:                                                                                                                          |
++----------------+----+--------+--------+------------+---------------------------------------+----------------------+----------------+-------------------------------------------------------------+
+|  SEID          |pdr |  far   |predence|   action   |        create outer hdr         tun id| rmv outer hdr  tun id|    UE IPv4     |                                                             |
++----------------+----+--------+--------+------------+---------------------------------------+----------------------+----------------+-------------------------------------------------------------+
+|0000000000000001|0001|00000001|0000000f|ACC>---->COR|none                                   |GTPU_UDP_IPV4:00000001|12.2.1.2        |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+[2019-06-15T09:25:28.919061] [spgwu] [pfcp     ] [trace] Sending PFCP_SESSION_ESTABLISHMENT_RESPONSE, seq 16131618 seid 0x100000001 
+[2019-06-15T09:25:29.142157] [spgwu] [spgwu_sx ] [info ] handle_receive(100 bytes)
+[2019-06-15T09:25:29.142704] [spgwu] [spgwu_app] [info ] Received SXAB_SESSION_MODIFICATION_REQUEST seid 0x1 
+[2019-06-15T09:25:29.142780] [spgwu] [spgwu_sx ] [info ] pfcp_session::add(far) seid 0x1 
+[2019-06-15T09:25:29.142913] [spgwu] [spgwu_sx ] [info ] pfcp_session::add(pdr) seid 0x1 
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| PFCP switch Packet Detection Rule list ordered by established sessions:                                                                                                                          |
++----------------+----+--------+--------+------------+---------------------------------------+----------------------+----------------+-------------------------------------------------------------+
+|  SEID          |pdr |  far   |predence|   action   |        create outer hdr         tun id| rmv outer hdr  tun id|    UE IPv4     |                                                             |
++----------------+----+--------+--------+------------+---------------------------------------+----------------------+----------------+-------------------------------------------------------------+
+|0000000000000001|0001|00000001|0000000f|ACC>---->COR|none                                   |GTPU_UDP_IPV4:00000001|12.2.1.2        |
+|0000000000000001|0002|00000002|00000000|COR>---->ACC|GTPU_UDP_IPV4:192.168.248.194 :ca6fe0dd|none                  |12.2.1.2        |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+[2019-06-15T09:25:29.143298] [spgwu] [pfcp     ] [trace] Sending PFCP_SESSION_MODIFICATION_RESPONSE, seq 16131619 seid 0x100000001 
+[2019-06-15T09:25:32.001562] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 33
+[2019-06-15T09:25:32.002379] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 34
+[2019-06-15T09:25:32.002405] [spgwu] [spgwu_sx ] [info ] PFCP HEARTBEAT PROCEDURE hash 1698117548 starting
+[2019-06-15T09:25:32.002496] [spgwu] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 4357464
+[2019-06-15T09:25:32.002789] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:32.002955] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT REQUEST
+[2019-06-15T09:25:32.003006] [spgwu] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 16131620
+[2019-06-15T09:25:32.003118] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:32.003168] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT RESPONSE
+[2019-06-15T09:25:37.002706] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 39
+[2019-06-15T09:25:37.003304] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 41
+[2019-06-15T09:25:37.003931] [spgwu] [spgwu_sx ] [info ] PFCP HEARTBEAT PROCEDURE hash 1698117548 starting
+[2019-06-15T09:25:37.004021] [spgwu] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 4357465
+[2019-06-15T09:25:37.004331] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:37.004391] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT RESPONSE
+[2019-06-15T09:25:42.003949] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:42.004699] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT REQUEST
+[2019-06-15T09:25:42.004761] [spgwu] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 16131621
+[2019-06-15T09:25:42.004211] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 44
+[2019-06-15T09:25:42.005052] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 45
+[2019-06-15T09:25:42.005071] [spgwu] [spgwu_sx ] [info ] PFCP HEARTBEAT PROCEDURE hash 1698117548 starting
+[2019-06-15T09:25:42.005153] [spgwu] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 4357466
+[2019-06-15T09:25:42.005424] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:42.005505] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT RESPONSE
+[2019-06-15T09:25:47.005380] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 49
+[2019-06-15T09:25:47.005632] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 50
+[2019-06-15T09:25:47.005655] [spgwu] [spgwu_sx ] [info ] PFCP HEARTBEAT PROCEDURE hash 1698117548 starting
+[2019-06-15T09:25:47.005741] [spgwu] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 4357467
+[2019-06-15T09:25:47.006095] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:47.006163] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT RESPONSE
+[2019-06-15T09:25:52.005638] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:52.006298] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT REQUEST
+[2019-06-15T09:25:52.006350] [spgwu] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 16131622
+[2019-06-15T09:25:52.005940] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 53
+[2019-06-15T09:25:52.006584] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 54
+[2019-06-15T09:25:52.006601] [spgwu] [spgwu_sx ] [info ] PFCP HEARTBEAT PROCEDURE hash 1698117548 starting
+[2019-06-15T09:25:52.006649] [spgwu] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 4357468
+[2019-06-15T09:25:52.006877] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:52.006925] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT RESPONSE
+[2019-06-15T09:25:57.006909] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 58
+[2019-06-15T09:25:57.007061] [spgwu] [spgwu_sx ] [info ] TIME-OUT event timer id 59
+[2019-06-15T09:25:57.007114] [spgwu] [spgwu_sx ] [info ] PFCP HEARTBEAT PROCEDURE hash 1698117548 starting
+[2019-06-15T09:25:57.007206] [spgwu] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 4357469
+[2019-06-15T09:25:57.007520] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:57.007576] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT RESPONSE
+[2019-06-15T09:25:57.358500] [spgwu] [spgwu_sx ] [info ] handle_receive(50 bytes)
+[2019-06-15T09:25:57.358863] [spgwu] [spgwu_app] [info ] Received SXAB_SESSION_MODIFICATION_REQUEST seid 0x1 
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| PFCP switch Packet Detection Rule list ordered by established sessions:                                                                                                                          |
++----------------+----+--------+--------+------------+---------------------------------------+----------------------+----------------+-------------------------------------------------------------+
+|  SEID          |pdr |  far   |predence|   action   |        create outer hdr         tun id| rmv outer hdr  tun id|    UE IPv4     |                                                             |
++----------------+----+--------+--------+------------+---------------------------------------+----------------------+----------------+-------------------------------------------------------------+
+|0000000000000001|0001|00000001|0000000f|ACC>---X> ? |none                                   |GTPU_UDP_IPV4:00000001|12.2.1.2        |
+|0000000000000001|0002|00000002|00000000|COR>-N--> ? |GTPU_UDP_IPV4:192.168.248.194 :ca6fe0dd|none                  |12.2.1.2        |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+[2019-06-15T09:25:57.359076] [spgwu] [pfcp     ] [trace] Sending PFCP_SESSION_MODIFICATION_RESPONSE, seq 16131623 seid 0x100000001 
+Caught signal 2
+[2019-06-15T09:26:00.030169] [spgwu] [system   ] [start] exiting
+[2019-06-15T09:26:00.030251] [spgwu] [itti     ] [info ] Waiting ITTI tasks closed
+[2019-06-15T09:26:00.030275] [spgwu] [spgwu_app] [info ] Received terminate message
+[2019-06-15T09:26:00.030458] [spgwu] [async_c  ] [info ] Received terminate message
+[2019-06-15T09:26:00.030545] [spgwu] [spgwu_s1u] [info ] Received terminate message
+[2019-06-15T09:26:00.030623] [spgwu] [spgwu_sx ] [info ] Received terminate message
+[2019-06-15T09:26:00.030695] [spgwu] [itti     ] [info ] All ITTI tasks closed
+Freeing Allocated memory...
+Async Shell CMD memory done.
+~itti()
+~itti() Done!
+ITTI memory done.
+SPGW-U APP memory done.
+Freeing Allocated memory done
+[spgwu_sx ] [info ] PFCP HEARTBEAT PROCEDURE hash 1698117548 starting
+[2019-06-15T09:25:47.005741] [spgwu] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 4357467
+[2019-06-15T09:25:47.006095] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:47.006163] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT RESPONSE
+[2019-06-15T09:25:52.005638] [spgwu] [spgwu_sx ] [info ] handle_receive(16 bytes)
+[2019-06-15T09:25:52.006298] [spgwu] [spgwu_sx ] [info ] Received SX HEARTBEAT REQUEST
+[2019-06-15T09:25:5

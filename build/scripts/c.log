@@ -1,0 +1,244 @@
+[2019-06-07T09:55:37.480724] [spgwc] [sgwc_app ] [start] Options parsed
+[2019-06-07T09:55:37.481476] [spgwc] [sgwc_app ] [info ] SettingNotFoundException : S-GW.INTERFACES.S11_CP.SCHED_PARAMS, using defaults
+[2019-06-07T09:55:37.481564] [spgwc] [sgwc_app ] [info ] SettingNotFoundException : S-GW.INTERFACES.S5_S8_CP.SCHED_PARAMS, using defaults
+[2019-06-07T09:55:37.481623] [spgwc] [sgwc_app ] [info ] ==== EURECOM SPGW-C vBranch: master Abrev. Hash: 4fee0d1 Date: Mon May 27 12:59:45 2019 +0200 ====
+[2019-06-07T09:55:37.481636] [spgwc] [sgwc_app ] [info ] Configuration SGW-C:
+[2019-06-07T09:55:37.481644] [spgwc] [sgwc_app ] [info ] - S5_S8-C Networking:
+[2019-06-07T09:55:37.481653] [spgwc] [sgwc_app ] [info ]     iface ............: ens193:s5c
+[2019-06-07T09:55:37.481662] [spgwc] [sgwc_app ] [info ]     ipv4.addr ........: 172.58.58.102
+[2019-06-07T09:55:37.481671] [spgwc] [sgwc_app ] [info ]     ipv4.mask ........: 255.255.0.0
+[2019-06-07T09:55:37.481680] [spgwc] [sgwc_app ] [info ]     port .............: 2123
+[2019-06-07T09:55:37.481688] [spgwc] [sgwc_app ] [info ] - S5_S8-C Threading:
+[2019-06-07T09:55:37.481696] [spgwc] [sgwc_app ] [info ]     CPU id............: 0
+[2019-06-07T09:55:37.481704] [spgwc] [sgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-07T09:55:37.481712] [spgwc] [sgwc_app ] [info ]     Scheduling prio  .: 95
+[2019-06-07T09:55:37.481720] [spgwc] [sgwc_app ] [info ] - S11-C Networking:
+[2019-06-07T09:55:37.481728] [spgwc] [sgwc_app ] [info ]     iface ............: ens193:s11
+[2019-06-07T09:55:37.481737] [spgwc] [sgwc_app ] [info ]     ipv4.addr ........: 172.16.1.104
+[2019-06-07T09:55:37.481746] [spgwc] [sgwc_app ] [info ]     ipv4.mask ........: 255.255.0.0
+[2019-06-07T09:55:37.481754] [spgwc] [sgwc_app ] [info ]     port .............: 2123
+[2019-06-07T09:55:37.481762] [spgwc] [sgwc_app ] [info ] - S11-C Threading:
+[2019-06-07T09:55:37.481770] [spgwc] [sgwc_app ] [info ]     CPU id............: 0
+[2019-06-07T09:55:37.481778] [spgwc] [sgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-07T09:55:37.481786] [spgwc] [sgwc_app ] [info ]     Scheduling prio  .: 95
+[2019-06-07T09:55:37.481794] [spgwc] [sgwc_app ] [info ] - ITTI Timer Task Threading:
+[2019-06-07T09:55:37.481802] [spgwc] [sgwc_app ] [info ]     CPU id............: 0
+[2019-06-07T09:55:37.481811] [spgwc] [sgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-07T09:55:37.481819] [spgwc] [sgwc_app ] [info ]     Scheduling prio  .: 85
+[2019-06-07T09:55:37.481827] [spgwc] [sgwc_app ] [info ] - ITTI S11 Task Threading:
+[2019-06-07T09:55:37.481835] [spgwc] [sgwc_app ] [info ]     CPU id............: 0
+[2019-06-07T09:55:37.481843] [spgwc] [sgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-07T09:55:37.481851] [spgwc] [sgwc_app ] [info ]     Scheduling prio  .: 84
+[2019-06-07T09:55:37.481859] [spgwc] [sgwc_app ] [info ] - ITTI S5S8 Task Threading:
+[2019-06-07T09:55:37.481867] [spgwc] [sgwc_app ] [info ]     CPU id............: 0
+[2019-06-07T09:55:37.481875] [spgwc] [sgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-07T09:55:37.481883] [spgwc] [sgwc_app ] [info ]     Scheduling prio  .: 84
+[2019-06-07T09:55:37.481891] [spgwc] [sgwc_app ] [info ] - ITTI SGW_APP task Threading:
+[2019-06-07T09:55:37.481899] [spgwc] [sgwc_app ] [info ]     CPU id............: 0
+[2019-06-07T09:55:37.481907] [spgwc] [sgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-07T09:55:37.481915] [spgwc] [sgwc_app ] [info ]     Scheduling prio  .: 84
+[2019-06-07T09:55:37.481923] [spgwc] [sgwc_app ] [info ] - ITTI ASYNC_CMD task Threading:
+[2019-06-07T09:55:37.481932] [spgwc] [sgwc_app ] [info ]     CPU id............: 0
+[2019-06-07T09:55:37.481940] [spgwc] [sgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-07T09:55:37.481948] [spgwc] [sgwc_app ] [info ]     Scheduling prio  .: 84
+[2019-06-07T09:55:37.482331] [spgwc] [pgwc_app ] [info ] SettingNotFoundException : P-GW.ITTI_TASKS, using defaults
+[2019-06-07T09:55:37.482435] [spgwc] [pgwc_app ] [info ] SettingNotFoundException : P-GW.INTERFACES.S5_S8_CP.SCHED_PARAMS, using defaults
+[2019-06-07T09:55:37.482513] [spgwc] [pgwc_app ] [info ] SettingNotFoundException : P-GW.INTERFACES.SX.SCHED_PARAMS, using defaults
+[2019-06-07T09:55:37.482772] [spgwc] [pgwc_app ] [info ] Finalize config...
+[2019-06-07T09:55:37.482805] [spgwc] [pgwc_app ] [info ] Finalized config
+[2019-06-07T09:55:37.482845] [spgwc] [pgwc_app ] [info ] ==== EURECOM SPGW-C vBranch: master Abrev. Hash: 4fee0d1 Date: Mon May 27 12:59:45 2019 +0200 ====
+[2019-06-07T09:55:37.482857] [spgwc] [pgwc_app ] [info ] Configuration PGW-C:
+[2019-06-07T09:55:37.482866] [spgwc] [pgwc_app ] [info ] - Instance ..............: 1
+
+[2019-06-07T09:55:37.482875] [spgwc] [pgwc_app ] [info ] - PID dir ...............: /var/run
+
+[2019-06-07T09:55:37.482883] [spgwc] [pgwc_app ] [info ] - S5S8-C Networking:
+[2019-06-07T09:55:37.482891] [spgwc] [pgwc_app ] [info ]     iface ............: ens193:p5c
+[2019-06-07T09:55:37.482901] [spgwc] [pgwc_app ] [info ]     ipv4.addr ........: 172.58.58.101
+[2019-06-07T09:55:37.482909] [spgwc] [pgwc_app ] [info ]     ipv4.mask ........: 255.255.0.0
+[2019-06-07T09:55:37.482918] [spgwc] [pgwc_app ] [info ]     port .............: 2123
+[2019-06-07T09:55:37.482926] [spgwc] [pgwc_app ] [info ]     MTU ..............: 1500
+[2019-06-07T09:55:37.482934] [spgwc] [pgwc_app ] [info ] - SX Networking:
+[2019-06-07T09:55:37.482942] [spgwc] [pgwc_app ] [info ]     iface ................: ens193:sxc
+[2019-06-07T09:55:37.482951] [spgwc] [pgwc_app ] [info ]     ip ...................: 172.55.55.101
+[2019-06-07T09:55:37.482960] [spgwc] [pgwc_app ] [info ]     port .................: 8805
+[2019-06-07T09:55:37.482968] [spgwc] [pgwc_app ] [info ] - S5S8 Threading:
+[2019-06-07T09:55:37.482976] [spgwc] [pgwc_app ] [info ]     CPU id............: 0
+[2019-06-07T09:55:37.482984] [spgwc] [pgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-07T09:55:37.482992] [spgwc] [pgwc_app ] [info ]     Scheduling prio  .: 90
+[2019-06-07T09:55:37.483000] [spgwc] [pgwc_app ] [info ] - SX Threading:
+[2019-06-07T09:55:37.483008] [spgwc] [pgwc_app ] [info ]     CPU id............: 0
+[2019-06-07T09:55:37.483016] [spgwc] [pgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-07T09:55:37.483024] [spgwc] [pgwc_app ] [info ]     Scheduling prio  .: 90
+[2019-06-07T09:55:37.483033] [spgwc] [pgwc_app ] [info ] - ITTI Timer Task Threading:
+[2019-06-07T09:55:37.483041] [spgwc] [pgwc_app ] [info ]     CPU id............: 0
+[2019-06-07T09:55:37.483049] [spgwc] [pgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-07T09:55:37.483057] [spgwc] [pgwc_app ] [info ]     Scheduling prio  .: 85
+[2019-06-07T09:55:37.483065] [spgwc] [pgwc_app ] [info ] - ITTI S5S8 Task Threading:
+[2019-06-07T09:55:37.483073] [spgwc] [pgwc_app ] [info ]     CPU id............: 0
+[2019-06-07T09:55:37.483081] [spgwc] [pgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-07T09:55:37.483089] [spgwc] [pgwc_app ] [info ]     Scheduling prio  .: 84
+[2019-06-07T09:55:37.483097] [spgwc] [pgwc_app ] [info ] - ITTI Sx Task Threading:
+[2019-06-07T09:55:37.483105] [spgwc] [pgwc_app ] [info ]     CPU id............: 0
+[2019-06-07T09:55:37.483113] [spgwc] [pgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-07T09:55:37.483121] [spgwc] [pgwc_app ] [info ]     Scheduling prio  .: 84
+[2019-06-07T09:55:37.483129] [spgwc] [pgwc_app ] [info ] - ITTI PGW_APP task Threading:
+[2019-06-07T09:55:37.483137] [spgwc] [pgwc_app ] [info ]     CPU id............: 0
+[2019-06-07T09:55:37.483145] [spgwc] [pgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-07T09:55:37.483153] [spgwc] [pgwc_app ] [info ]     Scheduling prio  .: 84
+[2019-06-07T09:55:37.483161] [spgwc] [pgwc_app ] [info ] - ITTI ASYNC_CMD task Threading:
+[2019-06-07T09:55:37.483169] [spgwc] [pgwc_app ] [info ]     CPU id............: 0
+[2019-06-07T09:55:37.483177] [spgwc] [pgwc_app ] [info ]     Scheduling policy : 1
+[2019-06-07T09:55:37.483186] [spgwc] [pgwc_app ] [info ]     Scheduling prio  .: 84
+[2019-06-07T09:55:37.483194] [spgwc] [pgwc_app ] [info ] - IP_ADDRESS_POOL:
+[2019-06-07T09:55:37.483205] [spgwc] [pgwc_app ] [info ]     IPv4 pool 0 ..........: 12.2.1.2 - 12.2.1.128
+[2019-06-07T09:55:37.483216] [spgwc] [pgwc_app ] [info ]     IPv6 pool 0 ..........: 2001:1:2:: / 64
+[2019-06-07T09:55:37.483237] [spgwc] [pgwc_app ] [info ]     IPv6 pool 1 ..........: 3001:1:2:: / 64
+[2019-06-07T09:55:37.483247] [spgwc] [pgwc_app ] [info ]     IPv6 pool 2 ..........: 4001:1:2:: / 64
+[2019-06-07T09:55:37.483256] [spgwc] [pgwc_app ] [info ] - DEFAULT DNS:
+[2019-06-07T09:55:37.483264] [spgwc] [pgwc_app ] [info ]     Primary DNS ..........: 10.118.81.1
+[2019-06-07T09:55:37.483273] [spgwc] [pgwc_app ] [info ]     Secondary DNS ........: 10.118.81.2
+[2019-06-07T09:55:37.483282] [spgwc] [pgwc_app ] [info ]     Primary DNS v6........: 2001:4860:4860::8888
+[2019-06-07T09:55:37.483291] [spgwc] [pgwc_app ] [info ]     Secondary DNS v6 .....: 2001:4860:4860::8844
+[2019-06-07T09:55:37.483299] [spgwc] [pgwc_app ] [info ] - APN_LIST:
+[2019-06-07T09:55:37.483307] [spgwc] [pgwc_app ] [info ]     APN 0:
+[2019-06-07T09:55:37.483315] [spgwc] [pgwc_app ] [info ]         APN_NI:  default.mnc001.mcc001.gprs
+[2019-06-07T09:55:37.483325] [spgwc] [pgwc_app ] [info ]         PDN_TYPE:  IPV4
+[2019-06-07T09:55:37.483335] [spgwc] [pgwc_app ] [info ]         IPV4_POOL:  0 ( 12.2.1.2 - 12.2.1.128)
+[2019-06-07T09:55:37.483344] [spgwc] [pgwc_app ] [info ] - PCEF support (in development)
+[2019-06-07T09:55:37.483353] [spgwc] [pgwc_app ] [info ]     APN AMBR UL ..........: 500000  (Kilo bits/s)
+[2019-06-07T09:55:37.483361] [spgwc] [pgwc_app ] [info ]     APN AMBR DL ..........: 500000  (Kilo bits/s)
+[2019-06-07T09:55:37.483369] [spgwc] [pgwc_app ] [info ] - Helpers:
+[2019-06-07T09:55:37.483377] [spgwc] [pgwc_app ] [info ]     Push PCO (DNS+MTU) ........: false
+[2019-06-07T09:55:37.483423] [spgwc] [itti     ] [start] Starting...
+[2019-06-07T09:55:37.483642] [spgwc] [itti     ] [start] Started
+[2019-06-07T09:55:37.483661] [spgwc] [async_c  ] [start] Starting...
+[2019-06-07T09:55:37.483652] [spgwc] [itti     ] [info ] Starting timer_manager_task
+[2019-06-07T09:55:37.484889] [spgwc] [async_c  ] [start] Started
+[2019-06-07T09:55:37.484987] [spgwc] [pgwc_app ] [start] Starting...
+[2019-06-07T09:55:37.485007] [spgwc] [pgwc_app ] [info ] Apply config...
+[2019-06-07T09:55:37.485017] [spgwc] [pgwc_app ] [info ]  ***** apply_config: cfg.num_apn: 1
+[2019-06-07T09:55:37.485027] [spgwc] [pgwc_app ] [info ]  ***** apply_config: pool_id_iv4: 0, pool_id_iv6: -1, apn_label: defaultmnc001mcc001gprs
+[2019-06-07T09:55:37.485039] [spgwc] [pgwc_app ] [info ]  ***** add_pool: pool_id 0
+[2019-06-07T09:55:37.485129] [spgwc] [pgwc_app ] [info ]  ***** add_pool: ipv4_pools
+[2019-06-07T09:55:37.485228] [spgwc] [pgwc_app ] [info ]  ***** add_pool: apns apn_label default.mnc001.mcc001.gprs
+[2019-06-07T09:55:37.485251] [spgwc] [pgwc_app ] [info ] Applied config
+[2019-06-07T09:55:37.486476] [spgwc] [udp      ] [debug] Creating new listen socket on address 172.58.58.101 and port 2123
+
+[2019-06-07T09:55:37.486502] [spgwc] [udp      ] [debug] udp_server::udp_server(172.58.58.101:2123)
+[2019-06-07T09:55:37.486520] [spgwc] [udp      ] [debug] Creating new listen socket on address 172.58.58.101 and port 0
+
+[2019-06-07T09:55:37.486532] [spgwc] [udp      ] [debug] udp_server::udp_server(172.58.58.101:0)
+[2019-06-07T09:55:37.486545] [spgwc] [gtpv2_c  ] [info ] gtpv2c_stack created listening to 172.58.58.101:2123 initial seq num 486543963
+[2019-06-07T09:55:37.486559] [spgwc] [udp      ] [trace] udp_server::start_receive
+[2019-06-07T09:55:37.486681] [spgwc] [udp      ] [trace] udp_server::start_receive
+[2019-06-07T09:55:37.486836] [spgwc] [pgwc_s5  ] [start] Starting...
+[2019-06-07T09:55:37.488047] [spgwc] [pgwc_s5  ] [start] Started
+[2019-06-07T09:55:37.488118] [spgwc] [udp      ] [debug] Creating new listen socket on address 172.55.55.101 and port 8805
+
+[2019-06-07T09:55:37.488138] [spgwc] [udp      ] [debug] udp_server::udp_server(172.55.55.101:8805)
+[2019-06-07T09:55:37.488155] [spgwc] [udp      ] [debug] Creating new listen socket on address 172.55.55.101 and port 0
+
+[2019-06-07T09:55:37.488167] [spgwc] [udp      ] [debug] udp_server::udp_server(172.55.55.101:0)
+[2019-06-07T09:55:37.488180] [spgwc] [pfcp     ] [info ] pfcp_l4_stack created listening to 172.55.55.101:8805
+[2019-06-07T09:55:37.488206] [spgwc] [udp      ] [trace] udp_server::start_receive
+[2019-06-07T09:55:37.488352] [spgwc] [udp      ] [trace] udp_server::start_receive
+[2019-06-07T09:55:37.488513] [spgwc] [pgwc_sx  ] [start] Starting...
+[2019-06-07T09:55:37.489742] [spgwc] [pgwc_sx  ] [start] Started
+[2019-06-07T09:55:37.489761] [spgwc] [pgwc_app ] [start] Started
+[2019-06-07T09:55:37.489830] [spgwc] [sgwc_app ] [start] Starting...
+[2019-06-07T09:55:37.489869] [spgwc] [udp      ] [debug] Creating new listen socket on address 172.58.58.102 and port 2123
+
+[2019-06-07T09:55:37.489886] [spgwc] [udp      ] [debug] udp_server::udp_server(172.58.58.102:2123)
+[2019-06-07T09:55:37.489903] [spgwc] [udp      ] [debug] Creating new listen socket on address 172.58.58.102 and port 0
+
+[2019-06-07T09:55:37.489915] [spgwc] [udp      ] [debug] udp_server::udp_server(172.58.58.102:0)
+[2019-06-07T09:55:37.489930] [spgwc] [gtpv2_c  ] [info ] gtpv2c_stack created listening to 172.58.58.102:2123 initial seq num 489928543
+[2019-06-07T09:55:37.489941] [spgwc] [udp      ] [trace] udp_server::start_receive
+[2019-06-07T09:55:37.490051] [spgwc] [udp      ] [trace] udp_server::start_receive
+[2019-06-07T09:55:37.490186] [spgwc] [sgwc_s5  ] [start] Starting...
+[2019-06-07T09:55:37.491415] [spgwc] [sgwc_s5  ] [start] Started
+[2019-06-07T09:55:37.491468] [spgwc] [udp      ] [debug] Creating new listen socket on address 172.16.1.104 and port 2123
+
+[2019-06-07T09:55:37.491486] [spgwc] [udp      ] [debug] udp_server::udp_server(172.16.1.104:2123)
+[2019-06-07T09:55:37.491503] [spgwc] [udp      ] [debug] Creating new listen socket on address 172.16.1.104 and port 0
+
+[2019-06-07T09:55:37.491515] [spgwc] [udp      ] [debug] udp_server::udp_server(172.16.1.104:0)
+[2019-06-07T09:55:37.491528] [spgwc] [gtpv2_c  ] [info ] gtpv2c_stack created listening to 172.16.1.104:2123 initial seq num 491526643
+[2019-06-07T09:55:37.491539] [spgwc] [udp      ] [trace] udp_server::start_receive
+[2019-06-07T09:55:37.491682] [spgwc] [udp      ] [trace] udp_server::start_receive
+[2019-06-07T09:55:37.491815] [spgwc] [sgwc_s11 ] [start] Starting...
+[2019-06-07T09:55:37.493025] [spgwc] [sgwc_s11 ] [start] Started
+[2019-06-07T09:55:41.896440] [spgwc] [pgwc_sx  ] [info ] handle_receive(31 bytes)
+[2019-06-07T09:55:41.896570] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 5 length 27
+[2019-06-07T09:55:41.897024] [spgwc] [pfcp     ] [trace] Sending PFCP_ASSOCIATION_SETUP_RESPONSE, seq 5431707
+[2019-06-07T09:55:46.897886] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-07T09:55:46.897957] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-07T09:55:46.898083] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 5431708
+[2019-06-07T09:55:51.897086] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 2
+[2019-06-07T09:55:51.897157] [spgwc] [pgwc_sx  ] [info ] PFCP HEARTBEAT PROCEDURE hash 1714894764 starting
+[2019-06-07T09:55:51.897333] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 1665691
+[2019-06-07T09:55:51.898078] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-07T09:55:51.898138] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 2 length 12
+[2019-06-07T09:55:51.898495] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-07T09:55:51.898535] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-07T09:55:51.898617] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 5431709
+[2019-06-07T09:55:56.897568] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 6
+[2019-06-07T09:55:56.899069] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-07T09:55:56.899125] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-07T09:55:56.899212] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 5431710
+[2019-06-07T09:56:01.898337] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 7
+[2019-06-07T09:56:01.898413] [spgwc] [pgwc_sx  ] [info ] PFCP HEARTBEAT PROCEDURE hash 1714894764 starting
+[2019-06-07T09:56:01.899649] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-07T09:56:01.899659] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 1665692
+[2019-06-07T09:56:01.899746] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-07T09:56:01.899845] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 5431711
+[2019-06-07T09:56:01.900250] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-07T09:56:01.900285] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 2 length 12
+[2019-06-07T09:56:06.899915] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 13
+[2019-06-07T09:56:06.900499] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-07T09:56:06.901030] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-07T09:56:06.901143] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 5431712
+[2019-06-07T09:56:11.900557] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 14
+[2019-06-07T09:56:11.900623] [spgwc] [pgwc_sx  ] [info ] PFCP HEARTBEAT PROCEDURE hash 1714894764 starting
+[2019-06-07T09:56:11.900871] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 1665693
+[2019-06-07T09:56:11.901557] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-07T09:56:11.901716] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-07T09:56:11.901960] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 5431713
+[2019-06-07T09:56:11.902124] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-07T09:56:11.902169] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 2 length 12
+[2019-06-07T09:56:16.901841] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 18
+[2019-06-07T09:56:16.902434] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-07T09:56:16.903441] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-07T09:56:16.903538] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 5431714
+[2019-06-07T09:56:21.902336] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 20
+[2019-06-07T09:56:21.902653] [spgwc] [pgwc_sx  ] [info ] PFCP HEARTBEAT PROCEDURE hash 1714894764 starting
+[2019-06-07T09:56:21.903990] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-07T09:56:21.904410] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_REQUEST, seq 1665694
+[2019-06-07T09:56:21.904407] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-07T09:56:21.904820] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 5431715
+[2019-06-07T09:56:21.905075] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-07T09:56:21.905120] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 2 length 12
+[2019-06-07T09:56:26.904594] [spgwc] [pgwc_sx  ] [info ] TIME-OUT event timer id 25
+[2019-06-07T09:56:26.905365] [spgwc] [pgwc_sx  ] [info ] handle_receive(16 bytes)
+[2019-06-07T09:56:26.906537] [spgwc] [pgwc_sx  ] [trace] handle_receive_pfcp_msg msg type 1 length 12
+[2019-06-07T09:56:26.906628] [spgwc] [pfcp     ] [trace] Sending HEARTBEAT_RESPONSE, seq 5431716
+Caught signal 2
+[2019-06-07T09:56:30.068782] [spgwc] [system   ] [start] exiting
+[2019-06-07T09:56:30.068878] [spgwc] [itti     ] [info ] Waiting ITTI tasks closed
+[2019-06-07T09:56:30.068893] [spgwc] [async_c  ] [info ] Received terminate message
+[2019-06-07T09:56:30.068918] [spgwc] [pgwc_sx  ] [info ] Received terminate message
+[2019-06-07T09:56:30.068927] [spgwc] [pgwc_app ] [info ] Received terminate message
+[2019-06-07T09:56:30.069125] [spgwc] [sgwc_app ] [info ] Received terminate message
+[2019-06-07T09:56:30.068892] [spgwc] [pgwc_s5  ] [info ] Received terminate message
+[2019-06-07T09:56:30.069219] [spgwc] [sgwc_s5  ] [info ] Received terminate message
+[2019-06-07T09:56:30.069311] [spgwc] [sgwc_s11 ] [info ] Received terminate message
+[2019-06-07T09:56:30.069486] [spgwc] [itti     ] [info ] All ITTI tasks closed
+Freeing Allocated memory...
+Async Shell CMD memory done.
+~itti()
+~itti() Done!
+ITTI memory done.
+SGW APP memory done.
+PGW APP memory done.
+Freeing Allocated memory done

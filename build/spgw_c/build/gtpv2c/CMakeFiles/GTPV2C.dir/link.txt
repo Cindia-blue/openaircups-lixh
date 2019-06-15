@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGTPV2C.a  CMakeFiles/GTPV2C.dir/3gpp_29.274.cpp.o CMakeFiles/GTPV2C.dir/gtpv2c.cpp.o
+/usr/bin/ranlib libGTPV2C.a
